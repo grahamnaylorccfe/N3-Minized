@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Thu Mar 28 18:58:33 2019
+# Process ID: 374460
+# Current directory: E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_blk_mem_gen_0_2_synth_1
+# Command line: vivado.exe -log minized_petalinux_blk_mem_gen_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source minized_petalinux_blk_mem_gen_0_2.tcl
+# Log file: E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_blk_mem_gen_0_2_synth_1/minized_petalinux_blk_mem_gen_0_2.vds
+# Journal file: E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_blk_mem_gen_0_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source minized_petalinux_blk_mem_gen_0_2.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP minized_petalinux_blk_mem_gen_0_2, cache-ID = d520cdaf3a5a1439.
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 28 18:59:05 2019...

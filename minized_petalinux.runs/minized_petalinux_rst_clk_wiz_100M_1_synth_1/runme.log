@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log minized_petalinux_rst_clk_wiz_100M_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source minized_petalinux_rst_clk_wiz_100M_1.tcl
+
+
+****** Vivado v2018.2.2 (64-bit)
+  **** SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+  **** IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source minized_petalinux_rst_clk_wiz_100M_1.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP minized_petalinux_rst_clk_wiz_100M_1, cache-ID = 298ac9175e62d477.
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 28 18:57:05 2019...

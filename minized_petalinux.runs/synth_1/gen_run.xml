@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z007sclg225-1" LaunchTime="1554025783">
+  <File Type="PA-TCL" Name="minized_petalinux_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="minized_petalinux_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="minized_petalinux_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="minized_petalinux_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="minized_petalinux_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="minized_petalinux_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="minized_petalinux_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="minized_petalinux_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="minized_petalinux_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/vhdl/wireless_mgr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Github/hdl/IP/minized/hdl/vhdl/wireless_mgr.vhd"/>
+        <Attr Name="ImportTime" Val="1548082829"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vhdl/microphone_mgr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../hdl-minized/minized_speedway/IP/microphone_mgr/hdl/vhdl/microphone_mgr.vhd"/>
+        <Attr Name="ImportTime" Val="1548692227"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/minized_petalinux.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Users/GrahamNaylor/Working/Minized/minized~/minized_hardware/hardware/MINIZED/minized_petalinux.srcs/sources_1/bd/minized_petalinux/minized_petalinux.bd"/>
+        <Attr Name="ImportTime" Val="1553637561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/hdl/minized_petalinux_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Users/GrahamNaylor/Working/Minized/minized~/minized_hardware/hardware/MINIZED/minized_petalinux.srcs/sources_1/bd/minized_petalinux/hdl/minized_petalinux_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1553637563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/minized_foundation_microphone_mgr_0_0/minized_foundation_microphone_mgr_0_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../hdl-minized/minized_speedway/Projects/minized_foundation/minized/minized_foundation.srcs/sources_1/bd/minized_foundation/ip/minized_foundation_microphone_mgr_0_0/minized_foundation_microphone_mgr_0_0.xci"/>
+        <Attr Name="ImportTime" Val="1548709213"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedtonedetect_0_0/minizedtonedetect_blk_mem_gen_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Users/GrahamNaylor/Working/Minized/minized~/minized_hardware/hardware/MINIZED/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedtonedetect_0_0/minizedtonedetect_blk_mem_gen_i0_vivado.coe"/>
+        <Attr Name="ImportTime" Val="1553637667"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i1_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i2_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i3_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_dist_mem_gen_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_dist_mem_gen_i1_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="minized_petalinux_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/hdl/Boards/MINIZED/minized_LEDs.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Github/hdl/Boards/MINIZED/minized_LEDs.xdc"/>
+        <Attr Name="ImportTime" Val="1548082829"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/hdl/Boards/bitstream_compression_enable.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Github/hdl/Boards/bitstream_compression_enable.xdc"/>
+        <Attr Name="ImportTime" Val="1548082829"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/hdl/Projects/minized_petalinux/minized_petalinux.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Github/hdl/Projects/minized_petalinux/minized_petalinux.xdc"/>
+        <Attr Name="ImportTime" Val="1548082830"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/hdl/Boards/MINIZED/minized_pins.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_minized_demodulate_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_wireless_mgr_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_axi_uart16550_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_minizedspeakerpwm_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_proc_sys_reset_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_proc_sys_reset_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_blk_mem_gen_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_minized_user_dsp_pic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_microphone_mgr_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_minizedtonedetect_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_minizedssbmodulator_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_xlconstant_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_xlconstant_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_xlconstant_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_rst_clk_wiz_100M_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_util_vector_logic_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_util_vector_logic_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_max11105_adc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_pdm_filter_sysgen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_axi_fifo_mm_s_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_axi_bram_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_clk_wiz_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_rst_ps7_0_33M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_axi_bram_ctrl_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_axi_bram_ctrl_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_xlconstant_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_blk_mem_gen_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="minized_petalinux_axi_iic_0_0"/>
+</GenRun>

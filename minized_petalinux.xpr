@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2018.2.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="38" Path="E:/MINIZED_N3Z/minized_petalinux.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="789bfac3186740318886d2894a5496d1"/>
+    <Option Name="Part" Val="xc7z007sclg225-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val="em.avnet.com:minized:part0:1.2"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../Github/hdl/IP/minized"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../hdl-minized/minized_speedway/IP/microphone_PDM"/>
+    <Option Name="IPRepoPath" Val="p:/FPGADevelopment/Minized/MinizedSysgen"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSAVendor" Val="xilinx"/>
+    <Option Name="DSABoardId" Val="minized"/>
+    <Option Name="DSANumComputeUnits" Val="60"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="6"/>
+    <Option Name="WTModelSimExportSim" Val="6"/>
+    <Option Name="WTQuestaExportSim" Val="6"/>
+    <Option Name="WTIesExportSim" Val="6"/>
+    <Option Name="WTVcsExportSim" Val="6"/>
+    <Option Name="WTRivieraExportSim" Val="6"/>
+    <Option Name="WTActivehdlExportSim" Val="6"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/vhdl/wireless_mgr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Github/hdl/IP/minized/hdl/vhdl/wireless_mgr.vhd"/>
+          <Attr Name="ImportTime" Val="1548082829"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/vhdl/microphone_mgr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../hdl-minized/minized_speedway/IP/microphone_mgr/hdl/vhdl/microphone_mgr.vhd"/>
+          <Attr Name="ImportTime" Val="1548692227"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/minized_petalinux.bd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Users/GrahamNaylor/Working/Minized/minized~/minized_hardware/hardware/MINIZED/minized_petalinux.srcs/sources_1/bd/minized_petalinux/minized_petalinux.bd"/>
+          <Attr Name="ImportTime" Val="1553637561"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_minizedtonedetect_0_0/minized_petalinux_minizedtonedetect_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_minizedtonedetect_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_util_vector_logic_0_0/minized_petalinux_util_vector_logic_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_util_vector_logic_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_xbar_0/minized_petalinux_xbar_0.xci">
+          <Proxy FileSetName="minized_petalinux_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_minized_user_dsp_pic_0_0/minized_petalinux_minized_user_dsp_pic_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_minized_user_dsp_pic_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_minized_demodulate_0_0/minized_petalinux_minized_demodulate_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_minized_demodulate_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_minizedssbmodulator_0_0/minized_petalinux_minizedssbmodulator_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_minizedssbmodulator_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_minizedspeakerpwm_0_0/minized_petalinux_minizedspeakerpwm_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_minizedspeakerpwm_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_wireless_mgr_0_0/minized_petalinux_wireless_mgr_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_wireless_mgr_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_axi_gpio_1_0/minized_petalinux_axi_gpio_1_0.xci">
+          <Proxy FileSetName="minized_petalinux_axi_gpio_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_axi_gpio_0_0/minized_petalinux_axi_gpio_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_axi_gpio_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_axi_iic_0_0/minized_petalinux_axi_iic_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_axi_iic_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_axi_uart16550_0_0/minized_petalinux_axi_uart16550_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_axi_uart16550_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_processing_system7_0_0/minized_petalinux_processing_system7_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_processing_system7_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_proc_sys_reset_0_1/minized_petalinux_proc_sys_reset_0_1.xci">
+          <Proxy FileSetName="minized_petalinux_proc_sys_reset_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_blk_mem_gen_0_1/minized_petalinux_blk_mem_gen_0_1.xci">
+          <Proxy FileSetName="minized_petalinux_blk_mem_gen_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_blk_mem_gen_0_2/minized_petalinux_blk_mem_gen_0_2.xci">
+          <Proxy FileSetName="minized_petalinux_blk_mem_gen_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_proc_sys_reset_1_0/minized_petalinux_proc_sys_reset_1_0.xci">
+          <Proxy FileSetName="minized_petalinux_proc_sys_reset_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_rst_ps7_0_33M_0/minized_petalinux_rst_ps7_0_33M_0.xci">
+          <Proxy FileSetName="minized_petalinux_rst_ps7_0_33M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_axi_bram_ctrl_0_0/minized_petalinux_axi_bram_ctrl_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_axi_bram_ctrl_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_blk_mem_gen_0_0/minized_petalinux_blk_mem_gen_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_blk_mem_gen_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_clk_wiz_1/minized_petalinux_clk_wiz_1.xci">
+          <Proxy FileSetName="minized_petalinux_clk_wiz_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_axi_bram_ctrl_0_2/minized_petalinux_axi_bram_ctrl_0_2.xci">
+          <Proxy FileSetName="minized_petalinux_axi_bram_ctrl_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_axi_bram_ctrl_0_1/minized_petalinux_axi_bram_ctrl_0_1.xci">
+          <Proxy FileSetName="minized_petalinux_axi_bram_ctrl_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_xlconstant_0_1/minized_petalinux_xlconstant_0_1.xci">
+          <Proxy FileSetName="minized_petalinux_xlconstant_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_rst_clk_wiz_100M_1/minized_petalinux_rst_clk_wiz_100M_1.xci">
+          <Proxy FileSetName="minized_petalinux_rst_clk_wiz_100M_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_xlconstant_0_2/minized_petalinux_xlconstant_0_2.xci">
+          <Proxy FileSetName="minized_petalinux_xlconstant_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_clk_wiz_0_0/minized_petalinux_clk_wiz_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_clk_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_xlconstant_0_0/minized_petalinux_xlconstant_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_xlconstant_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_xlconstant_2_0/minized_petalinux_xlconstant_2_0.xci">
+          <Proxy FileSetName="minized_petalinux_xlconstant_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_util_vector_logic_0_1/minized_petalinux_util_vector_logic_0_1.xci">
+          <Proxy FileSetName="minized_petalinux_util_vector_logic_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_util_vector_logic_0_2/minized_petalinux_util_vector_logic_0_2.xci">
+          <Proxy FileSetName="minized_petalinux_util_vector_logic_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_max11105_adc_0_0/minized_petalinux_max11105_adc_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_max11105_adc_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_microphone_mgr_0_0/minized_petalinux_microphone_mgr_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_microphone_mgr_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_pdm_filter_sysgen_0_0/minized_petalinux_pdm_filter_sysgen_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_pdm_filter_sysgen_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="minized_petalinux.bd" FileRelPathName="ip/minized_petalinux_axi_fifo_mm_s_0_0/minized_petalinux_axi_fifo_mm_s_0_0.xci">
+          <Proxy FileSetName="minized_petalinux_axi_fifo_mm_s_0_0"/>
+        </CompFileExtendedInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/hdl/minized_petalinux_wrapper.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Users/GrahamNaylor/Working/Minized/minized~/minized_hardware/hardware/MINIZED/minized_petalinux.srcs/sources_1/bd/minized_petalinux/hdl/minized_petalinux_wrapper.vhd"/>
+          <Attr Name="ImportTime" Val="1553637563"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/minized_foundation_microphone_mgr_0_0/minized_foundation_microphone_mgr_0_0.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../hdl-minized/minized_speedway/Projects/minized_foundation/minized/minized_foundation.srcs/sources_1/bd/minized_foundation/ip/minized_foundation_microphone_mgr_0_0/minized_foundation_microphone_mgr_0_0.xci"/>
+          <Attr Name="ImportTime" Val="1548709213"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedtonedetect_0_0/minizedtonedetect_blk_mem_gen_i0_vivado.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Users/GrahamNaylor/Working/Minized/minized~/minized_hardware/hardware/MINIZED/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedtonedetect_0_0/minizedtonedetect_blk_mem_gen_i0_vivado.coe"/>
+          <Attr Name="ImportTime" Val="1553637667"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i0_vivado.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i1_vivado.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i2_vivado.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i3_vivado.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_dist_mem_gen_i0_vivado.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_dist_mem_gen_i1_vivado.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="minized_petalinux_wrapper"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/hdl/Boards/MINIZED/minized_LEDs.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Github/hdl/Boards/MINIZED/minized_LEDs.xdc"/>
+          <Attr Name="ImportTime" Val="1548082829"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/hdl/Boards/bitstream_compression_enable.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Github/hdl/Boards/bitstream_compression_enable.xdc"/>
+          <Attr Name="ImportTime" Val="1548082829"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/hdl/Projects/minized_petalinux/minized_petalinux.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Github/hdl/Projects/minized_petalinux/minized_petalinux.xdc"/>
+          <Attr Name="ImportTime" Val="1548082830"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/hdl/Boards/MINIZED/minized_pins.xdc">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="minized_petalinux_wrapper"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_wireless_mgr_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_wireless_mgr_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_wireless_mgr_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_axi_gpio_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_axi_gpio_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_axi_gpio_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_processing_system7_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_processing_system7_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_processing_system7_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_xbar_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_xbar_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_xbar_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_minized_user_dsp_pic_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_minized_user_dsp_pic_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_minized_user_dsp_pic_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_minized_demodulate_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_minized_demodulate_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_minized_demodulate_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_minizedspeakerpwm_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_minizedspeakerpwm_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_minizedspeakerpwm_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_minizedssbmodulator_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_minizedssbmodulator_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_minizedssbmodulator_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_minizedtonedetect_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_minizedtonedetect_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_minizedtonedetect_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_util_vector_logic_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_util_vector_logic_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_util_vector_logic_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_clk_wiz_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_clk_wiz_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_clk_wiz_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_xlconstant_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_xlconstant_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_xlconstant_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_xlconstant_2_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_xlconstant_2_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_xlconstant_2_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_util_vector_logic_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_util_vector_logic_0_1">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_util_vector_logic_0_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_util_vector_logic_0_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_util_vector_logic_0_2">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_util_vector_logic_0_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_max11105_adc_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_max11105_adc_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_max11105_adc_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_microphone_mgr_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_microphone_mgr_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_microphone_mgr_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_pdm_filter_sysgen_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_pdm_filter_sysgen_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_pdm_filter_sysgen_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_axi_fifo_mm_s_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_axi_fifo_mm_s_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_axi_fifo_mm_s_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_axi_bram_ctrl_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_axi_bram_ctrl_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_axi_bram_ctrl_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_blk_mem_gen_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_blk_mem_gen_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_blk_mem_gen_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_clk_wiz_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_clk_wiz_1">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_clk_wiz_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_rst_clk_wiz_100M_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_rst_clk_wiz_100M_1">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_rst_clk_wiz_100M_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_rst_ps7_0_33M_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_rst_ps7_0_33M_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_rst_ps7_0_33M_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_axi_bram_ctrl_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_axi_bram_ctrl_0_1">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_axi_bram_ctrl_0_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_axi_bram_ctrl_0_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_axi_bram_ctrl_0_2">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_axi_bram_ctrl_0_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_xlconstant_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_xlconstant_0_1">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_xlconstant_0_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_xlconstant_0_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_xlconstant_0_2">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_xlconstant_0_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_blk_mem_gen_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_blk_mem_gen_0_1">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_blk_mem_gen_0_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_blk_mem_gen_0_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_blk_mem_gen_0_2">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_blk_mem_gen_0_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_proc_sys_reset_1_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_proc_sys_reset_1_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_proc_sys_reset_1_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_proc_sys_reset_0_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_proc_sys_reset_0_1">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_proc_sys_reset_0_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_axi_gpio_1_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_axi_gpio_1_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_axi_gpio_1_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_axi_iic_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_axi_iic_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_axi_iic_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="minized_petalinux_axi_uart16550_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/minized_petalinux_axi_uart16550_0_0">
+      <Config>
+        <Option Name="TopModule" Val="minized_petalinux_axi_uart16550_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z007sclg225-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_wireless_mgr_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_wireless_mgr_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_wireless_mgr_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_wireless_mgr_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_gpio_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_axi_gpio_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_gpio_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_axi_gpio_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_processing_system7_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_processing_system7_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_processing_system7_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_xbar_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xbar_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_xbar_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minized_user_dsp_pic_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_minized_user_dsp_pic_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minized_user_dsp_pic_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_minized_user_dsp_pic_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minized_demodulate_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_minized_demodulate_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minized_demodulate_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_minized_demodulate_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minizedspeakerpwm_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_minizedspeakerpwm_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minizedspeakerpwm_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_minizedspeakerpwm_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minizedssbmodulator_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_minizedssbmodulator_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minizedssbmodulator_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_minizedssbmodulator_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minizedtonedetect_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_minizedtonedetect_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minizedtonedetect_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_minizedtonedetect_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_util_vector_logic_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_util_vector_logic_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_util_vector_logic_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_util_vector_logic_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_clk_wiz_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_clk_wiz_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_clk_wiz_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_clk_wiz_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xlconstant_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_xlconstant_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xlconstant_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_xlconstant_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xlconstant_2_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_xlconstant_2_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xlconstant_2_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_xlconstant_2_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_util_vector_logic_0_1_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_util_vector_logic_0_1" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_util_vector_logic_0_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_util_vector_logic_0_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_util_vector_logic_0_2_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_util_vector_logic_0_2" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_util_vector_logic_0_2" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_util_vector_logic_0_2_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_max11105_adc_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_max11105_adc_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_max11105_adc_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_max11105_adc_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_microphone_mgr_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_microphone_mgr_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_microphone_mgr_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_microphone_mgr_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_pdm_filter_sysgen_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_pdm_filter_sysgen_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_pdm_filter_sysgen_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_pdm_filter_sysgen_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_fifo_mm_s_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_axi_fifo_mm_s_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_fifo_mm_s_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_axi_fifo_mm_s_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_bram_ctrl_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_axi_bram_ctrl_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_bram_ctrl_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_axi_bram_ctrl_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_blk_mem_gen_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_blk_mem_gen_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_blk_mem_gen_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_blk_mem_gen_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_clk_wiz_1_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_clk_wiz_1" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_clk_wiz_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_clk_wiz_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_rst_clk_wiz_100M_1_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_rst_clk_wiz_100M_1" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_rst_clk_wiz_100M_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_rst_clk_wiz_100M_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_rst_ps7_0_33M_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_rst_ps7_0_33M_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_rst_ps7_0_33M_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_rst_ps7_0_33M_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_bram_ctrl_0_1_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_axi_bram_ctrl_0_1" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_bram_ctrl_0_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_axi_bram_ctrl_0_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_bram_ctrl_0_2_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_axi_bram_ctrl_0_2" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_bram_ctrl_0_2" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_axi_bram_ctrl_0_2_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xlconstant_0_1_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_xlconstant_0_1" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xlconstant_0_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_xlconstant_0_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xlconstant_0_2_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_xlconstant_0_2" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xlconstant_0_2" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_xlconstant_0_2_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_blk_mem_gen_0_1_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_blk_mem_gen_0_1" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_blk_mem_gen_0_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_blk_mem_gen_0_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_blk_mem_gen_0_2_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_blk_mem_gen_0_2" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_blk_mem_gen_0_2" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_blk_mem_gen_0_2_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_proc_sys_reset_1_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_proc_sys_reset_1_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_proc_sys_reset_1_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_proc_sys_reset_1_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_proc_sys_reset_0_1_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_proc_sys_reset_0_1" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_proc_sys_reset_0_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_proc_sys_reset_0_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_gpio_1_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_axi_gpio_1_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_gpio_1_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_axi_gpio_1_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_iic_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_axi_iic_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_iic_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_axi_iic_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_uart16550_0_0_synth_1" Type="Ft3:Synth" SrcSet="minized_petalinux_axi_uart16550_0_0" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_uart16550_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/minized_petalinux_axi_uart16550_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_wireless_mgr_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_wireless_mgr_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_wireless_mgr_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_gpio_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_gpio_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_axi_gpio_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_processing_system7_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_processing_system7_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xbar_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_xbar_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minized_user_dsp_pic_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minized_user_dsp_pic_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_minized_user_dsp_pic_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minized_demodulate_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minized_demodulate_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_minized_demodulate_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minizedspeakerpwm_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minizedspeakerpwm_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_minizedspeakerpwm_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minizedssbmodulator_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minizedssbmodulator_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_minizedssbmodulator_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_minizedtonedetect_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_minizedtonedetect_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_minizedtonedetect_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_util_vector_logic_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_util_vector_logic_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_util_vector_logic_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_clk_wiz_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_clk_wiz_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_clk_wiz_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xlconstant_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xlconstant_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_xlconstant_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xlconstant_2_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xlconstant_2_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_xlconstant_2_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_util_vector_logic_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_util_vector_logic_0_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_util_vector_logic_0_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_util_vector_logic_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_util_vector_logic_0_2" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_util_vector_logic_0_2_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_max11105_adc_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_max11105_adc_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_max11105_adc_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_microphone_mgr_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_microphone_mgr_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_microphone_mgr_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_pdm_filter_sysgen_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_pdm_filter_sysgen_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_pdm_filter_sysgen_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_fifo_mm_s_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_fifo_mm_s_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_axi_fifo_mm_s_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_bram_ctrl_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_bram_ctrl_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_axi_bram_ctrl_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_blk_mem_gen_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_blk_mem_gen_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_blk_mem_gen_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_clk_wiz_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_clk_wiz_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_clk_wiz_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_rst_clk_wiz_100M_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_rst_clk_wiz_100M_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_rst_clk_wiz_100M_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_rst_ps7_0_33M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_rst_ps7_0_33M_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_rst_ps7_0_33M_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_bram_ctrl_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_bram_ctrl_0_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_axi_bram_ctrl_0_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_bram_ctrl_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_bram_ctrl_0_2" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_axi_bram_ctrl_0_2_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xlconstant_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xlconstant_0_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_xlconstant_0_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_xlconstant_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_xlconstant_0_2" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_xlconstant_0_2_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_blk_mem_gen_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_blk_mem_gen_0_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_blk_mem_gen_0_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_blk_mem_gen_0_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_blk_mem_gen_0_2" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_blk_mem_gen_0_2_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_proc_sys_reset_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_proc_sys_reset_1_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_proc_sys_reset_1_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_proc_sys_reset_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_proc_sys_reset_0_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_proc_sys_reset_0_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_gpio_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_gpio_1_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_axi_gpio_1_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_iic_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_iic_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_axi_iic_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="minized_petalinux_axi_uart16550_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z007sclg225-1" ConstrsSet="minized_petalinux_axi_uart16550_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="minized_petalinux_axi_uart16550_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+  <Board>
+    <Jumpers/>
+  </Board>
+</Project>

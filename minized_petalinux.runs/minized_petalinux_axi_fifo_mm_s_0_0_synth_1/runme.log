@@ -1,0 +1,1607 @@
+
+*** Running vivado
+    with args -log minized_petalinux_axi_fifo_mm_s_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source minized_petalinux_axi_fifo_mm_s_0_0.tcl
+
+
+****** Vivado v2018.2.2 (64-bit)
+  **** SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+  **** IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source minized_petalinux_axi_fifo_mm_s_0_0.tcl -notrace
+Command: synth_design -top minized_petalinux_axi_fifo_mm_s_0_0 -part xc7z007sclg225-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 378580 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 454.316 ; gain = 101.180
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'minized_petalinux_axi_fifo_mm_s_0_0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_axi_fifo_mm_s_0_0/synth/minized_petalinux_axi_fifo_mm_s_0_0.vhd:129]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI4_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_TX_FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter C_RX_FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter C_TX_FIFO_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_TX_FIFO_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_RX_FIFO_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_RX_FIFO_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_USE_TX_CUT_THROUGH bound to: 0 - type: integer 
+	Parameter C_DATA_INTERFACE_TYPE bound to: 1 - type: integer 
+	Parameter C_BASEADDR bound to: 32'b01000011110000110000000000000000 
+	Parameter C_HIGHADDR bound to: 32'b01000011110000111111111111111111 
+	Parameter C_AXI4_BASEADDR bound to: 32'b01000011110001000000000000000000 
+	Parameter C_AXI4_HIGHADDR bound to: 32'b01000011110001001111111111111111 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_USE_RX_CUT_THROUGH bound to: 0 - type: integer 
+	Parameter C_USE_TX_DATA bound to: 1 - type: integer 
+	Parameter C_USE_TX_CTRL bound to: 0 - type: integer 
+	Parameter C_USE_RX_DATA bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'axi_fifo_mm_s' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:4942' bound to instance 'U0' of component 'axi_fifo_mm_s' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_axi_fifo_mm_s_0_0/synth/minized_petalinux_axi_fifo_mm_s_0_0.vhd:338]
+INFO: [Synth 8-638] synthesizing module 'axi_fifo_mm_s' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:5100]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI4_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_TX_FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter C_RX_FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter C_TX_FIFO_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_TX_FIFO_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_RX_FIFO_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_RX_FIFO_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_USE_TX_CUT_THROUGH bound to: 0 - type: integer 
+	Parameter C_DATA_INTERFACE_TYPE bound to: 1 - type: integer 
+	Parameter C_BASEADDR bound to: 1136852992 - type: integer 
+	Parameter C_HIGHADDR bound to: 1136918527 - type: integer 
+	Parameter C_AXI4_BASEADDR bound to: 1136918528 - type: integer 
+	Parameter C_AXI4_HIGHADDR bound to: 1136984063 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_USE_RX_CUT_THROUGH bound to: 0 - type: integer 
+	Parameter C_USE_TX_DATA bound to: 1 - type: integer 
+	Parameter C_USE_TX_CTRL bound to: 0 - type: integer 
+	Parameter C_USE_RX_DATA bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MIN_SIZE bound to: 32'b00000000000000000000000000111111 
+	Parameter C_USE_WSTRB bound to: 0 - type: integer 
+	Parameter C_DPHASE_TIMEOUT bound to: 0 - type: integer 
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000010000111100001100000000000000000000000000000000000000000000000001000011110000111111111111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000001101 
+	Parameter C_FAMILY bound to: zynq - type: string 
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000010000111100001100000000000000000000000000000000000000000000000001000011110000111111111111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000001101 
+	Parameter C_IPIF_ABUS_WIDTH bound to: 32 - type: integer 
+	Parameter C_IPIF_DBUS_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MIN_SIZE bound to: 63 - type: integer 
+	Parameter C_USE_WSTRB bound to: 0 - type: integer 
+	Parameter C_DPHASE_TIMEOUT bound to: 0 - type: integer 
+	Parameter C_FAMILY bound to: zynq - type: string 
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+	Parameter C_BUS_AWIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_MIN_SIZE bound to: 63 - type: integer 
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000010000111100001100000000000000000000000000000000000000000000000001000011110000111111111111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000001101 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0000 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0001 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0010 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0011 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0100 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0101 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0110 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0111 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized7' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1000 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized7' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized8' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1001 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized8' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized9' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1010 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized9' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized10' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1011 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized10' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized11' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1100 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized11' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+WARNING: [Synth 8-6014] Unused sequential element is_read_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2447]
+WARNING: [Synth 8-6014] Unused sequential element is_write_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2448]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'axi_wrapper' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2470]
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_ID bound to: 1 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_WDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_TX_FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter C_RX_FIFO_DEPTH bound to: 512 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'axi_write_wrapper' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:802]
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_AWADDR_WIDTH bound to: 11 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 9 - type: integer 
+	Parameter C_AXI_WDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_HAS_AXI_ID bound to: 1 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_OS_WR bound to: 2 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "pipe_distributed" *) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:825]
+INFO: [Synth 8-638] synthesizing module 'axi_write_fsm' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:307]
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:506]
+INFO: [Synth 8-226] default block is never used [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:602]
+INFO: [Synth 8-256] done synthesizing module 'axi_write_fsm' (5#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:307]
+INFO: [Synth 8-256] done synthesizing module 'axi_write_wrapper' (6#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:802]
+INFO: [Synth 8-638] synthesizing module 'axi_read_wrapper' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1971]
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_WRITE_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_PIPELINE_STAGES bound to: 1 - type: integer 
+	Parameter C_AXI_ARADDR_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_AXI_ID bound to: 1 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'axi_read_fsm' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1309]
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "yes" *) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1476]
+INFO: [Synth 8-226] default block is never used [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1496]
+INFO: [Synth 8-226] default block is never used [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1609]
+INFO: [Synth 8-226] default block is never used [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1655]
+INFO: [Synth 8-226] default block is never used [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1733]
+INFO: [Synth 8-226] default block is never used [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1805]
+WARNING: [Synth 8-6014] Unused sequential element gaxi_full_sm.pipeline_full_r_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1567]
+INFO: [Synth 8-256] done synthesizing module 'axi_read_fsm' (7#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1309]
+WARNING: [Synth 8-6014] Unused sequential element gaxi_full_sm.araddr_reg_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2091]
+WARNING: [Synth 8-6014] Unused sequential element grid.ar_id_r_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2312]
+INFO: [Synth 8-256] done synthesizing module 'axi_read_wrapper' (8#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1971]
+INFO: [Synth 8-256] done synthesizing module 'axi_wrapper' (9#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2470]
+INFO: [Synth 8-638] synthesizing module 'ipic2axi_s' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3967]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_DEST_WIDTH bound to: 4 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI4_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_TX_FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter C_RX_FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter C_TX_FIFO_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_TX_FIFO_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_RX_FIFO_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_RX_FIFO_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_USE_TX_CUT_THROUGH bound to: 0 - type: integer 
+	Parameter C_USE_RX_CUT_THROUGH bound to: 0 - type: integer 
+	Parameter C_TOTAL_NO_OF_INTR bound to: 13 - type: integer 
+	Parameter C_TOTAL_NO_OF_REG bound to: 13 - type: integer 
+	Parameter C_DATA_INTERFACE_TYPE bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 4 - type: integer 
+	Parameter C_USE_TX_DATA bound to: 1 - type: integer 
+	Parameter C_USE_RX_DATA bound to: 1 - type: integer 
+	Parameter C_USE_TX_CTRL bound to: 0 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fifo' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3517]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_USE_FIFO_GEN bound to: 1 - type: integer 
+	Parameter C_IPIF_DWIDTH bound to: 32 - type: integer 
+	Parameter C_OFFSET bound to: 1 - type: integer 
+	Parameter C_DEPTH bound to: 512 - type: integer 
+	Parameter C_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_DATA_FLOW_DIR bound to: MM2S - type: string 
+	Parameter C_DATA_INTERFACE_TYPE bound to: 1 - type: integer 
+	Parameter C_USE_TX_CUT_THROUGH bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TLAST bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'axis_fg' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2743]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_DEPTH bound to: 512 - type: integer 
+	Parameter C_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_FIFO_GEN_TYPE bound to: 1 - type: integer 
+	Parameter C_DATA_COUNT_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TLAST bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1171]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1222]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (10#1) [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1171]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst' [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1055]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1107]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst' (12#1) [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1055]
+WARNING: [Synth 8-3848] Net axi_aw_prog_full_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2827]
+WARNING: [Synth 8-3848] Net axi_aw_prog_empty_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2828]
+WARNING: [Synth 8-3848] Net axi_w_prog_full_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2838]
+WARNING: [Synth 8-3848] Net axi_w_prog_empty_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2839]
+WARNING: [Synth 8-3848] Net axi_b_prog_full_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2849]
+WARNING: [Synth 8-3848] Net axi_b_prog_empty_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2850]
+WARNING: [Synth 8-3848] Net axi_ar_prog_full_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2860]
+WARNING: [Synth 8-3848] Net axi_ar_prog_empty_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2861]
+WARNING: [Synth 8-3848] Net axi_r_prog_full_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2871]
+WARNING: [Synth 8-3848] Net axi_r_prog_empty_thresh_axi_fifo in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2872]
+WARNING: [Synth 8-3848] Net axis_prog_full_thresh in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2888]
+WARNING: [Synth 8-3848] Net axis_prog_empty_thresh in module/entity axis_fg does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2889]
+INFO: [Synth 8-256] done synthesizing module 'axis_fg' (40#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2743]
+INFO: [Synth 8-256] done synthesizing module 'fifo' (41#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3517]
+INFO: [Synth 8-638] synthesizing module 'fifo__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3517]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_USE_FIFO_GEN bound to: 1 - type: integer 
+	Parameter C_IPIF_DWIDTH bound to: 32 - type: integer 
+	Parameter C_OFFSET bound to: 0 - type: integer 
+	Parameter C_DEPTH bound to: 512 - type: integer 
+	Parameter C_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_DATA_FLOW_DIR bound to: S2MM - type: string 
+	Parameter C_DATA_INTERFACE_TYPE bound to: 1 - type: integer 
+	Parameter C_USE_TX_CUT_THROUGH bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TLAST bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'axis_fg__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2743]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_DEPTH bound to: 512 - type: integer 
+	Parameter C_PF_THRESHOLD bound to: 507 - type: integer 
+	Parameter C_PE_THRESHOLD bound to: 2 - type: integer 
+	Parameter C_FIFO_GEN_TYPE bound to: 0 - type: integer 
+	Parameter C_DATA_COUNT_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TLAST bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+WARNING: [Synth 8-3848] Net axi_aw_prog_full_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2827]
+WARNING: [Synth 8-3848] Net axi_aw_prog_empty_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2828]
+WARNING: [Synth 8-3848] Net axi_w_prog_full_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2838]
+WARNING: [Synth 8-3848] Net axi_w_prog_empty_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2839]
+WARNING: [Synth 8-3848] Net axi_b_prog_full_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2849]
+WARNING: [Synth 8-3848] Net axi_b_prog_empty_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2850]
+WARNING: [Synth 8-3848] Net axi_ar_prog_full_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2860]
+WARNING: [Synth 8-3848] Net axi_ar_prog_empty_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2861]
+WARNING: [Synth 8-3848] Net axi_r_prog_full_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2871]
+WARNING: [Synth 8-3848] Net axi_r_prog_empty_thresh_axi_fifo in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2872]
+WARNING: [Synth 8-3848] Net axis_prog_full_thresh in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2888]
+WARNING: [Synth 8-3848] Net axis_prog_empty_thresh in module/entity axis_fg__parameterized0 does not have driver. [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2889]
+INFO: [Synth 8-256] done synthesizing module 'axis_fg__parameterized0' (41#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2743]
+INFO: [Synth 8-256] done synthesizing module 'fifo__parameterized0' (41#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3517]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/6078/hdl/lib_fifo_v1_0_rfs.vhd:2250]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_DCOUNT_WIDTH bound to: 4 - type: integer 
+	Parameter C_ENABLE_RLOCS bound to: 0 - type: integer 
+	Parameter C_HAS_DCOUNT bound to: 1 - type: integer 
+	Parameter C_HAS_RD_ACK bound to: 0 - type: integer 
+	Parameter C_HAS_RD_ERR bound to: 0 - type: integer 
+	Parameter C_HAS_WR_ACK bound to: 0 - type: integer 
+	Parameter C_HAS_WR_ERR bound to: 0 - type: integer 
+	Parameter C_HAS_ALMOST_FULL bound to: 0 - type: integer 
+	Parameter C_MEMORY_TYPE bound to: 0 - type: integer 
+	Parameter C_PORTS_DIFFER bound to: 0 - type: integer 
+	Parameter C_RD_ACK_LOW bound to: 0 - type: integer 
+	Parameter C_USE_EMBEDDED_REG bound to: 0 - type: integer 
+	Parameter C_READ_DATA_WIDTH bound to: 22 - type: integer 
+	Parameter C_READ_DEPTH bound to: 128 - type: integer 
+	Parameter C_RD_ERR_LOW bound to: 0 - type: integer 
+	Parameter C_WR_ACK_LOW bound to: 0 - type: integer 
+	Parameter C_WR_ERR_LOW bound to: 0 - type: integer 
+	Parameter C_PRELOAD_REGS bound to: 1 - type: integer 
+	Parameter C_PRELOAD_LATENCY bound to: 0 - type: integer 
+	Parameter C_WRITE_DATA_WIDTH bound to: 22 - type: integer 
+	Parameter C_WRITE_DEPTH bound to: 128 - type: integer 
+	Parameter C_SYNCHRONIZER_STAGE bound to: 2 - type: integer 
+	Parameter C_XPM_FIFO bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (44#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/6078/hdl/lib_fifo_v1_0_rfs.vhd:2250]
+WARNING: [Synth 8-6014] Unused sequential element sig_rxd_rd_en_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:4348]
+WARNING: [Synth 8-6014] Unused sequential element sig_ip2bus_data_mux_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:4352]
+WARNING: [Synth 8-6014] Unused sequential element sig_rd_decode_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:4355]
+WARNING: [Synth 8-6014] Unused sequential element grxd.rx_partial_pkt_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:4762]
+INFO: [Synth 8-256] done synthesizing module 'ipic2axi_s' (45#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3967]
+INFO: [Synth 8-256] done synthesizing module 'axi_fifo_mm_s' (46#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:5100]
+INFO: [Synth 8-256] done synthesizing module 'minized_petalinux_axi_fifo_mm_s_0_0' (47#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_axi_fifo_mm_s_0_0/synth/minized_petalinux_axi_fifo_mm_s_0_0.vhd:129]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[31]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[30]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[29]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[28]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[27]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[26]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[25]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[24]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[23]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[22]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[21]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[20]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[19]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[18]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[17]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[16]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[15]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[14]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[13]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[12]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[11]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[10]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[9]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[8]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[7]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[6]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[5]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[4]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[3]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[2]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[1]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WDATA[0]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WSTRB[3]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WSTRB[2]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WSTRB[1]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WSTRB[0]
+WARNING: [Synth 8-3331] design axi_wrapper has unconnected port S_AXI_WLAST
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port RST_FULL_FF
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_RST
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port SRST
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port SAFETY_CKT_WR_RST
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS2[6]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS2[5]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS2[4]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS2[3]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS2[2]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS2[1]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS2[0]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS3[6]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS3[5]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS3[4]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS3[3]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS3[2]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS3[1]
+WARNING: [Synth 8-3331] design wr_status_flags_ss__parameterized1 has unconnected port WR_PNTR_PLUS3[0]
+WARNING: [Synth 8-3331] design wr_bin_cntr__parameterized1 has unconnected port RST
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port WR_EN_INTO_LOGIC
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port WR_RST_INTO_LOGIC
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port RD_EN
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port WR_RST_BUSY
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port EMPTY
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port ALMOST_EMPTY
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH[6]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH[5]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH[4]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH[3]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH[2]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH[1]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH[0]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_ASSERT[6]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_ASSERT[5]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_ASSERT[4]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_ASSERT[3]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_ASSERT[2]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_ASSERT[1]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_ASSERT[0]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_NEGATE[6]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_NEGATE[5]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_NEGATE[4]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_NEGATE[3]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_NEGATE[2]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_NEGATE[1]
+WARNING: [Synth 8-3331] design wr_logic__parameterized1 has unconnected port PROG_FULL_THRESH_NEGATE[0]
+WARNING: [Synth 8-3331] design rd_fwft has unconnected port RD_RST
+WARNING: [Synth 8-3331] design rd_fwft has unconnected port SAFETY_CKT_RD_RST
+WARNING: [Synth 8-3331] design rd_fwft has unconnected port RAM_ALMOST_EMPTY
+WARNING: [Synth 8-3331] design updn_cntr__parameterized0 has unconnected port RST
+WARNING: [Synth 8-3331] design dc_ss has unconnected port WR_PNTR[6]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port WR_PNTR[5]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port WR_PNTR[4]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port WR_PNTR[3]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port WR_PNTR[2]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port WR_PNTR[1]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port WR_PNTR[0]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port RD_PNTR[6]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port RD_PNTR[5]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port RD_PNTR[4]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port RD_PNTR[3]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port RD_PNTR[2]
+WARNING: [Synth 8-3331] design dc_ss has unconnected port RD_PNTR[1]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:23 ; elapsed = 00:02:31 . Memory (MB): peak = 746.816 ; gain = 393.680
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_full_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_full_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_full_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_full_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_empty_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_empty_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_empty_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_empty_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[9] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[8] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[7] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[6] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[5] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[4] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[9] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[8] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[7] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[6] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[5] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[4] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_empty_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_b_prog_full_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_b_prog_full_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_b_prog_full_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_b_prog_full_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_b_prog_empty_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_b_prog_empty_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_b_prog_empty_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_b_prog_empty_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_ar_prog_full_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_ar_prog_full_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_ar_prog_full_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_ar_prog_full_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_ar_prog_empty_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_ar_prog_empty_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_ar_prog_empty_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_ar_prog_empty_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[9] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[8] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[7] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[6] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[5] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[4] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_full_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[9] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[8] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[7] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[6] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[5] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[4] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_r_prog_empty_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_full_thresh[8] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_full_thresh[7] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_full_thresh[6] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_full_thresh[5] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_full_thresh[4] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_full_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_full_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_full_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_full_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_empty_thresh[8] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_empty_thresh[7] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_empty_thresh[6] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_empty_thresh[5] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_empty_thresh[4] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_empty_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_empty_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_empty_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axis_prog_empty_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_full_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_full_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_full_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_full_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_empty_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_empty_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_empty_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_aw_prog_empty_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[9] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[8] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[7] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[6] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[5] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[4] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[3] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[2] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[1] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+WARNING: [Synth 8-3295] tying undriven pin COMP_FIFO:axi_w_prog_full_thresh[0] to constant 0 [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/99f9/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2903]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:24 ; elapsed = 00:02:32 . Memory (MB): peak = 746.816 ; gain = 393.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:24 ; elapsed = 00:02:32 . Memory (MB): peak = 746.816 ; gain = 393.680
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z007sclg225-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_axi_fifo_mm_s_0_0/minized_petalinux_axi_fifo_mm_s_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_axi_fifo_mm_s_0_0/minized_petalinux_axi_fifo_mm_s_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_axi_fifo_mm_s_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_axi_fifo_mm_s_0_0_synth_1/dont_touch.xdc]
+Sourcing Tcl File [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/reset_gen_cc.rstblk_cc/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/reset_gen_cc.rstblk_cc/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/minized_petalinux_axi_fifo_mm_s_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/minized_petalinux_axi_fifo_mm_s_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Sourcing Tcl File [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [E:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 874.355 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:50 ; elapsed = 00:03:03 . Memory (MB): peak = 874.355 ; gain = 521.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:50 ; elapsed = 00:03:03 . Memory (MB): peak = 874.355 ; gain = 521.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_axi_fifo_mm_s_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for U0/COMP_IPIC2AXI_S/\gtxd.COMP_TXD_FIFO /\gfifo_gen.COMP_AXIS_FG_FIFO /COMP_FIFO/inst_fifo_gen/\reset_gen_cc.rstblk_cc /\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/COMP_IPIC2AXI_S/\gtxd.COMP_TXD_FIFO /\gfifo_gen.COMP_AXIS_FG_FIFO /COMP_FIFO/inst_fifo_gen/\gaxis_fifo.gaxisf.axisf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/COMP_IPIC2AXI_S/\grxd.COMP_RX_FIFO /\gfifo_gen.COMP_AXIS_FG_FIFO /COMP_FIFO/inst_fifo_gen/\gaxis_fifo.gaxisf.axisf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst . (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:50 ; elapsed = 00:03:03 . Memory (MB): peak = 874.355 ; gain = 521.219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
+INFO: [Synth 8-5544] ROM "s_axi_rresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_axi_rresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_axi_bresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_axi_bresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "leaving_empty_fwft" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fg_rxd_wr_length" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tmp" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'gaxi_full_sm.present_state_reg' in module 'axi_write_fsm'
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bready_timeout_c" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'gaxi_full_sm.present_state_reg' in module 'axi_read_fsm'
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 sm_idle |                             0010 |                               00
+                 sm_read |                             1000 |                               01
+                sm_write |                             0100 |                               10
+                 sm_resp |                             0001 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             wait_wraddr |                               00 |                               00
+                   os_wr |                               01 |                               10
+              reg_wraddr |                               10 |                               01
+                  wr_mem |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gaxi_full_sm.present_state_reg' using encoding 'sequential' in module 'axi_write_fsm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             wait_rdaddr |                               00 |                               00
+                  rd_mem |                               01 |                               11
+              reg_rdaddr |                               10 |                               01
+                   os_rd |                               11 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gaxi_full_sm.present_state_reg' using encoding 'sequential' in module 'axi_read_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:55 ; elapsed = 00:03:09 . Memory (MB): peak = 874.355 ; gain = 521.219
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     22 Bit       Adders := 1     
+	   4 Input     22 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 9     
+	   2 Input      9 Bit       Adders := 6     
+	   2 Input      8 Bit       Adders := 3     
+	   2 Input      7 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 5     
+	   2 Input      2 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 123   
++---Registers : 
+	               41 Bit    Registers := 2     
+	               33 Bit    Registers := 2     
+	               32 Bit    Registers := 3     
+	               22 Bit    Registers := 3     
+	               13 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 9     
+	                9 Bit    Registers := 11    
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 8     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 125   
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 3     
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 7     
+	   3 Input     22 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 12    
+	   9 Input     13 Bit        Muxes := 3     
+	   2 Input     11 Bit        Muxes := 5     
+	   3 Input     11 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 6     
+	   6 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      3 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 27    
+	   5 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 137   
+	   3 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 13    
+	   9 Input      1 Bit        Muxes := 8     
+	   8 Input      1 Bit        Muxes := 3     
+	  13 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module pselect_f 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized6 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized7 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized8 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized9 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized10 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module pselect_f__parameterized11 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module address_decoder 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 15    
+Module slave_attachment 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module xpm_cdc_async_rst 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module reset_blk_ramfifo 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module xpm_cdc_sync_rst 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module reset_blk_ramfifo__parameterized0__xdcDup__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module blk_mem_gen_prim_width 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module memory 
+Detailed RTL Component Info : 
++---Registers : 
+	               41 Bit    Registers := 1     
+Module rd_bin_cntr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 2     
+Module compare 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 9     
+Module rd_status_flags_ss 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module rd_pe_ss 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module rd_fwft 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 2     
+Module updn_cntr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+Module dc_ss_fwft 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module wr_bin_cntr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 3     
+Module wr_status_flags_ss 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module wr_pf_ss 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module fifo_generator_v13_2_2_synth 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module axis_fg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module reset_blk_ramfifo__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module wr_bin_cntr__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 2     
+Module wr_status_flags_ss__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module axis_fg__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dmem 
+Detailed RTL Component Info : 
++---Registers : 
+	               22 Bit    Registers := 1     
+Module memory__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               22 Bit    Registers := 1     
+Module rd_bin_cntr__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 3     
+Module compare__parameterized0 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 7     
+Module rd_status_flags_ss__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module updn_cntr__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+Module dc_ss 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module wr_bin_cntr__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 2     
+Module wr_status_flags_ss__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module ipic2axi_s 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     22 Bit       Adders := 1     
+	   4 Input     22 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	               22 Bit    Registers := 1     
+	               13 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 3     
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 7     
+	   3 Input     22 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 12    
+	   9 Input     13 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 49    
+	   9 Input      1 Bit        Muxes := 8     
+	   8 Input      1 Bit        Muxes := 3     
+	  13 Input      1 Bit        Muxes := 1     
+Module axi_write_fsm 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module axi_write_wrapper 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   3 Input     11 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 3     
+	   6 Input      7 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+Module axi_read_fsm 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 4     
+Module axi_read_wrapper 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 3     
+	   3 Input     11 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 3     
+	   6 Input      7 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[0]' (FDS) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[0]' (FDS) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[0]' (FDS) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/sig_txd_dest_reg[0]' (FDRE) to 'U0/COMP_IPIC2AXI_S/sig_txd_dest_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/sig_txd_dest_reg[1]' (FDRE) to 'U0/COMP_IPIC2AXI_S/sig_txd_dest_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/sig_txd_dest_reg[2]' (FDRE) to 'U0/COMP_IPIC2AXI_S/sig_txd_dest_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\COMP_IPIC2AXI_S/sig_txd_dest_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\COMP_IPIC2AXI_S/sig_txd_wr_en_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\COMP_IPIF/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\COMP_IPIF/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[1]' (FD) to 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[1]' (FD) to 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[2]' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[2]' (FD) to 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[1]' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[3]' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[3]' (FD) to 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[2]' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[4]' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[4]' (FD) to 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[3]' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[4]' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[4]'
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIF/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIF/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIF/I_SLAVE_ATTACHMENT/bus2ip_addr_i_reg[1]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIF/I_SLAVE_ATTACHMENT/bus2ip_addr_i_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[8]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[7]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[6]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[5]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[4]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[3]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[1]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[8]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[7]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[6]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[5]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[4]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[3]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/goreg_bm.dout_i_reg[1]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gpe.rdpe/greg.gpcry_sym.diff_pntr_pad_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.gpf.wrpf/gdiff.gcry_1_sym.diff_pntr_pad_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/sig_txd_wr_data_reg[32]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/sig_txd_dest_reg[3]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.gpe.rdpe/greg.gpcry_sym.diff_pntr_pad_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.gpf.wrpf/gdiff.gcry_1_sym.diff_pntr_pad_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.COMP_rx_len_fifo/legacy_fifo_instance.FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/gae.ram_aempty_i_reg) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.gmm2s.vacancy_i_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/sig_txd_wr_en_reg) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.num_of_bytes_r_reg[6]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.num_of_bytes_r_reg[5]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.num_of_bytes_r_reg[4]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.num_of_bytes_r_reg[3]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.num_of_bytes_r_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.num_of_bytes_r_reg[1]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.num_of_bytes_r_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[10]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[9]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[8]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[7]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[6]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[5]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[4]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[3]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[1]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.addr_cnt_enb_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.next_address_r_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.next_address_r_reg[1]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.next_address_r_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.bmg_address_r_reg[10]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.bmg_address_r_reg[9]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.bmg_address_r_reg[8]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.bmg_address_r_reg[7]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.bmg_address_r_reg[6]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.bmg_address_r_reg[5]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.bmg_address_r_reg[4]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.bmg_address_r_reg[3]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.bmg_address_r_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_wr_fsm/gaxif_ms_addr_gen.incr_en_r_reg) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/axi_read_fsm/gaxi_full_sm.ar_ready_r_reg) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.num_of_bytes_r_reg[6]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.num_of_bytes_r_reg[5]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.num_of_bytes_r_reg[4]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.num_of_bytes_r_reg[3]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.num_of_bytes_r_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.num_of_bytes_r_reg[1]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.num_of_bytes_r_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[10]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[9]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[8]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[7]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[6]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[5]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[4]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[3]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[1]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.addr_cnt_enb_r_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.next_address_r_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.next_address_r_reg[1]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.next_address_r_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.bmg_address_r_reg[10]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.bmg_address_r_reg[9]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.bmg_address_r_reg[8]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.bmg_address_r_reg[7]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.bmg_address_r_reg[6]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.bmg_address_r_reg[5]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.bmg_address_r_reg[4]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.bmg_address_r_reg[3]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.bmg_address_r_reg[2]) is unused and will be removed from module axi_fifo_mm_s.
+WARNING: [Synth 8-3332] Sequential element (gaxif.COMP_AXI4/axi_rd_sm/gaxi_full_sm.gaxifull_mem_slave.incr_en_r_reg) is unused and will be removed from module axi_fifo_mm_s.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\COMP_IPIC2AXI_S/grxd.fg_rxd_wr_length_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.POR_A_reg' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.POR_A_reg'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.POR_A_reg' (FD) to 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.POR_B_reg'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENA_NO_REG.ENA_dly_reg' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENA_NO_REG.ENA_dly_reg'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENB_NO_REG.ENB_dly_reg' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENA_NO_REG.ENA_dly_reg'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.POR_B_reg' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.POR_B_reg'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENA_NO_REG.ENA_dly_D_reg' (FD) to 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENB_NO_REG.ENB_dly_D_reg'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/gtxd.COMP_TXD_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENB_NO_REG.ENB_dly_D_reg' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENA_NO_REG.ENA_dly_D_reg'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENA_NO_REG.ENA_dly_reg' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENB_NO_REG.ENB_dly_reg'
+INFO: [Synth 8-3886] merging instance 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENA_NO_REG.ENA_dly_D_reg' (FD) to 'U0/COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.ENB_NO_REG.ENB_dly_D_reg'
+WARNING: [Synth 8-3332] Sequential element (COMP_IPIC2AXI_S/grxd.fg_rxd_wr_length_reg[0]) is unused and will be removed from module axi_fifo_mm_s.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:06 ; elapsed = 00:03:21 . Memory (MB): peak = 874.355 ; gain = 521.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-----------------------------+
+|Module Name | RTL Object                                                                                                                                                                 | Inference      | Size (Depth x Width) | Primitives                  | 
++------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-----------------------------+
+|U0          | COMP_IPIC2AXI_S/grxd.COMP_rx_len_fifo/legacy_fifo_instance.FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 128 x 22             | RAM64X1D x 2  RAM64M x 14   | 
+|U0          | gaxif.COMP_AXI4/axi_wr_fsm/gaxi_bid_gen.axi_bid_array_reg                                                                                                                  | User Attribute | 4 x 1                | RAM16X1D x 1                | 
++------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-----------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:29 ; elapsed = 00:03:45 . Memory (MB): peak = 874.355 ; gain = 521.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:36 ; elapsed = 00:03:53 . Memory (MB): peak = 927.457 ; gain = 574.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-----------------------------+
+|Module Name | RTL Object                                                                                                                                                                 | Inference      | Size (Depth x Width) | Primitives                  | 
++------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-----------------------------+
+|U0          | COMP_IPIC2AXI_S/grxd.COMP_rx_len_fifo/legacy_fifo_instance.FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 128 x 22             | RAM64X1D x 2  RAM64M x 14   | 
+|U0          | gaxif.COMP_AXI4/axi_wr_fsm/gaxi_bid_gen.axi_bid_array_reg                                                                                                                  | User Attribute | 4 x 1                | RAM16X1D x 1                | 
++------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-----------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:38 ; elapsed = 00:03:54 . Memory (MB): peak = 928.465 ; gain = 575.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4618] Found max_fanout attribute set to 10 on net \gaxif.COMP_AXI4/axi_rd_sm/axi_read_fsm/arready_int . Fanout reduced from 15 to 7 by creating 2 replicas.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:41 ; elapsed = 00:03:57 . Memory (MB): peak = 928.465 ; gain = 575.328
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:41 ; elapsed = 00:03:57 . Memory (MB): peak = 928.465 ; gain = 575.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:41 ; elapsed = 00:03:58 . Memory (MB): peak = 928.465 ; gain = 575.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:42 ; elapsed = 00:03:58 . Memory (MB): peak = 928.465 ; gain = 575.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:42 ; elapsed = 00:03:58 . Memory (MB): peak = 928.465 ; gain = 575.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:42 ; elapsed = 00:03:58 . Memory (MB): peak = 928.465 ; gain = 575.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name   | RTL Name                                                                                                                                                                                                                                                                                  | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|axi_fifo_mm_s | COMP_IPIC2AXI_S/grxd.COMP_RX_FIFO/gfifo_gen.COMP_AXIS_FG_FIFO/COMP_FIFO/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[4] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    54|
+|2     |LUT1     |    59|
+|3     |LUT2     |   126|
+|4     |LUT3     |   101|
+|5     |LUT4     |   149|
+|6     |LUT5     |    80|
+|7     |LUT6     |   181|
+|8     |MUXCY    |    45|
+|9     |RAM16X1D |     1|
+|10    |RAM64M   |    14|
+|11    |RAM64X1D |     2|
+|12    |RAMB36E1 |     2|
+|13    |SRL16E   |     1|
+|14    |FDPE     |     5|
+|15    |FDRE     |   616|
+|16    |FDSE     |    33|
++------+---------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------------------------------------------------+---------------------------------------------+------+
+|      |Instance                                                                           |Module                                       |Cells |
++------+-----------------------------------------------------------------------------------+---------------------------------------------+------+
+|1     |top                                                                                |                                             |  1469|
+|2     |  U0                                                                               |axi_fifo_mm_s                                |  1469|
+|3     |    COMP_IPIC2AXI_S                                                                |ipic2axi_s                                   |  1101|
+|4     |      \grxd.COMP_RX_FIFO                                                           |fifo__parameterized0                         |   272|
+|5     |        \gfifo_gen.COMP_AXIS_FG_FIFO                                               |axis_fg__parameterized0                      |   272|
+|6     |          COMP_FIFO                                                                |fifo_generator_v13_2_2__parameterized0       |   271|
+|7     |            inst_fifo_gen                                                          |fifo_generator_v13_2_2_synth__parameterized0 |   271|
+|8     |              \gaxis_fifo.gaxisf.axisf                                             |fifo_generator_top__parameterized0           |   271|
+|9     |                \grf.rf                                                            |fifo_generator_ramfifo__parameterized0       |   271|
+|10    |                  \gntv_or_sync_fifo.gl0.rd                                        |rd_logic_5                                   |   131|
+|11    |                    \gr1.gdcf.dc                                                   |dc_ss_fwft                                   |    24|
+|12    |                      dc                                                           |updn_cntr                                    |    24|
+|13    |                    \gr1.gr1_int.rfwft                                             |rd_fwft_16                                   |    18|
+|14    |                    \grss.gpe.rdpe                                                 |rd_pe_ss_17                                  |    19|
+|15    |                    \grss.rsts                                                     |rd_status_flags_ss_18                        |    13|
+|16    |                      c1                                                           |compare_20                                   |     5|
+|17    |                      c2                                                           |compare_21                                   |     6|
+|18    |                    rpntr                                                          |rd_bin_cntr_19                               |    57|
+|19    |                  \gntv_or_sync_fifo.gl0.wr                                        |wr_logic__parameterized0                     |    78|
+|20    |                    \gwss.gpf.wrpf                                                 |wr_pf_ss_13                                  |    15|
+|21    |                    \gwss.wsts                                                     |wr_status_flags_ss__parameterized0           |    26|
+|22    |                      c0                                                           |compare_14                                   |     5|
+|23    |                      c1                                                           |compare_15                                   |     6|
+|24    |                    wpntr                                                          |wr_bin_cntr__parameterized0                  |    37|
+|25    |                  \gntv_or_sync_fifo.mem                                           |memory_6                                     |    43|
+|26    |                    \gbm.gbmg.gbmga.ngecc.bmg                                      |blk_mem_gen_v8_4_1_7                         |     9|
+|27    |                      inst_blk_mem_gen                                             |blk_mem_gen_v8_4_1_synth_8                   |     9|
+|28    |                        \gnbram.gnativebmg.native_blk_mem_gen                      |blk_mem_gen_top_9                            |     9|
+|29    |                          \valid.cstr                                              |blk_mem_gen_generic_cstr_10                  |     9|
+|30    |                            \ramloop[0].ram.r                                      |blk_mem_gen_prim_width_11                    |     9|
+|31    |                              \prim_noinit.ram                                     |blk_mem_gen_prim_wrapper_12                  |     2|
+|32    |                  rstblk                                                           |reset_blk_ramfifo__parameterized0            |    19|
+|33    |                    \ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst  |xpm_cdc_sync_rst                             |     5|
+|34    |      \grxd.COMP_rx_len_fifo                                                       |sync_fifo_fg                                 |   163|
+|35    |        \legacy_fifo_instance.FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM                    |fifo_generator_v13_2_2__parameterized1       |   163|
+|36    |          inst_fifo_gen                                                            |fifo_generator_v13_2_2_synth__parameterized1 |   163|
+|37    |            \gconvfifo.rf                                                          |fifo_generator_top__parameterized1           |   163|
+|38    |              \grf.rf                                                              |fifo_generator_ramfifo__parameterized1       |   163|
+|39    |                \gntv_or_sync_fifo.gl0.rd                                          |rd_logic__parameterized0                     |    63|
+|40    |                  \gr1.gr1_int.rfwft                                               |rd_fwft_4                                    |    25|
+|41    |                  \grss.rsts                                                       |rd_status_flags_ss__parameterized0           |     2|
+|42    |                  rpntr                                                            |rd_bin_cntr__parameterized0                  |    36|
+|43    |                \gntv_or_sync_fifo.gl0.wr                                          |wr_logic__parameterized1                     |    32|
+|44    |                  \gwss.wsts                                                       |wr_status_flags_ss__parameterized1           |     6|
+|45    |                  wpntr                                                            |wr_bin_cntr__parameterized1                  |    26|
+|46    |                \gntv_or_sync_fifo.mem                                             |memory__parameterized0                       |    68|
+|47    |                  \gdm.dm_gen.dm                                                   |dmem                                         |    39|
+|48    |      \gtxd.COMP_TXD_FIFO                                                          |fifo                                         |   384|
+|49    |        \gfifo_gen.COMP_AXIS_FG_FIFO                                               |axis_fg                                      |   329|
+|50    |          COMP_FIFO                                                                |fifo_generator_v13_2_2                       |   327|
+|51    |            inst_fifo_gen                                                          |fifo_generator_v13_2_2_synth                 |   327|
+|52    |              \gaxis_fifo.gaxisf.axisf                                             |fifo_generator_top                           |   261|
+|53    |                \grf.rf                                                            |fifo_generator_ramfifo                       |   261|
+|54    |                  \gntv_or_sync_fifo.gl0.rd                                        |rd_logic                                     |    86|
+|55    |                    \gr1.gr1_int.rfwft                                             |rd_fwft                                      |    21|
+|56    |                    \grss.gpe.rdpe                                                 |rd_pe_ss                                     |    19|
+|57    |                    \grss.rsts                                                     |rd_status_flags_ss                           |    13|
+|58    |                      c1                                                           |compare_2                                    |     5|
+|59    |                      c2                                                           |compare_3                                    |     6|
+|60    |                    rpntr                                                          |rd_bin_cntr                                  |    33|
+|61    |                  \gntv_or_sync_fifo.gl0.wr                                        |wr_logic                                     |   121|
+|62    |                    \gwss.gpf.wrpf                                                 |wr_pf_ss                                     |    15|
+|63    |                    \gwss.wsts                                                     |wr_status_flags_ss                           |    31|
+|64    |                      c0                                                           |compare                                      |     6|
+|65    |                      c1                                                           |compare_0                                    |     6|
+|66    |                      \gaf.c2                                                      |compare_1                                    |     6|
+|67    |                    wpntr                                                          |wr_bin_cntr                                  |    75|
+|68    |                  \gntv_or_sync_fifo.mem                                           |memory                                       |    36|
+|69    |                    \gbm.gbmg.gbmga.ngecc.bmg                                      |blk_mem_gen_v8_4_1                           |     1|
+|70    |                      inst_blk_mem_gen                                             |blk_mem_gen_v8_4_1_synth                     |     1|
+|71    |                        \gnbram.gnativebmg.native_blk_mem_gen                      |blk_mem_gen_top                              |     1|
+|72    |                          \valid.cstr                                              |blk_mem_gen_generic_cstr                     |     1|
+|73    |                            \ramloop[0].ram.r                                      |blk_mem_gen_prim_width                       |     1|
+|74    |                              \prim_noinit.ram                                     |blk_mem_gen_prim_wrapper                     |     1|
+|75    |                  rstblk                                                           |reset_blk_ramfifo__parameterized0__xdcDup__1 |    18|
+|76    |                    \ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst  |xpm_cdc_sync_rst__2                          |     5|
+|77    |              \reset_gen_cc.rstblk_cc                                              |reset_blk_ramfifo                            |    11|
+|78    |                \ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst               |xpm_cdc_async_rst                            |     2|
+|79    |    COMP_IPIF                                                                      |axi_lite_ipif                                |   220|
+|80    |      I_SLAVE_ATTACHMENT                                                           |slave_attachment                             |   220|
+|81    |        I_DECODER                                                                  |address_decoder                              |   158|
+|82    |          \MEM_DECODE_GEN[0].PER_CE_GEN[0].MULTIPLE_CES_THIS_CS_GEN.CE_I           |pselect_f                                    |     1|
+|83    |          \MEM_DECODE_GEN[0].PER_CE_GEN[10].MULTIPLE_CES_THIS_CS_GEN.CE_I          |pselect_f__parameterized9                    |     1|
+|84    |          \MEM_DECODE_GEN[0].PER_CE_GEN[11].MULTIPLE_CES_THIS_CS_GEN.CE_I          |pselect_f__parameterized10                   |     1|
+|85    |          \MEM_DECODE_GEN[0].PER_CE_GEN[12].MULTIPLE_CES_THIS_CS_GEN.CE_I          |pselect_f__parameterized11                   |     1|
+|86    |          \MEM_DECODE_GEN[0].PER_CE_GEN[1].MULTIPLE_CES_THIS_CS_GEN.CE_I           |pselect_f__parameterized0                    |     1|
+|87    |          \MEM_DECODE_GEN[0].PER_CE_GEN[2].MULTIPLE_CES_THIS_CS_GEN.CE_I           |pselect_f__parameterized1                    |     1|
+|88    |          \MEM_DECODE_GEN[0].PER_CE_GEN[4].MULTIPLE_CES_THIS_CS_GEN.CE_I           |pselect_f__parameterized3                    |     1|
+|89    |          \MEM_DECODE_GEN[0].PER_CE_GEN[5].MULTIPLE_CES_THIS_CS_GEN.CE_I           |pselect_f__parameterized4                    |     1|
+|90    |          \MEM_DECODE_GEN[0].PER_CE_GEN[6].MULTIPLE_CES_THIS_CS_GEN.CE_I           |pselect_f__parameterized5                    |     1|
+|91    |          \MEM_DECODE_GEN[0].PER_CE_GEN[7].MULTIPLE_CES_THIS_CS_GEN.CE_I           |pselect_f__parameterized6                    |     1|
+|92    |          \MEM_DECODE_GEN[0].PER_CE_GEN[8].MULTIPLE_CES_THIS_CS_GEN.CE_I           |pselect_f__parameterized7                    |     1|
+|93    |          \MEM_DECODE_GEN[0].PER_CE_GEN[9].MULTIPLE_CES_THIS_CS_GEN.CE_I           |pselect_f__parameterized8                    |     1|
+|94    |    \gaxif.COMP_AXI4                                                               |axi_wrapper                                  |   148|
+|95    |      axi_rd_sm                                                                    |axi_read_wrapper                             |    70|
+|96    |        axi_read_fsm                                                               |axi_read_fsm                                 |    53|
+|97    |      axi_wr_fsm                                                                   |axi_write_wrapper                            |    78|
+|98    |        axi_wr_fsm                                                                 |axi_write_fsm                                |    50|
++------+-----------------------------------------------------------------------------------+---------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:42 ; elapsed = 00:03:58 . Memory (MB): peak = 928.465 ; gain = 575.328
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 231 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:58 ; elapsed = 00:03:34 . Memory (MB): peak = 928.465 ; gain = 447.789
+Synthesis Optimization Complete : Time (s): cpu = 00:03:42 ; elapsed = 00:03:58 . Memory (MB): peak = 928.465 ; gain = 575.328
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 118 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 35 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 18 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 14 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+149 Infos, 327 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:47 ; elapsed = 00:04:04 . Memory (MB): peak = 928.465 ; gain = 583.836
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_axi_fifo_mm_s_0_0_synth_1/minized_petalinux_axi_fifo_mm_s_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_axi_fifo_mm_s_0_0/minized_petalinux_axi_fifo_mm_s_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 97 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_axi_fifo_mm_s_0_0_synth_1/minized_petalinux_axi_fifo_mm_s_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file minized_petalinux_axi_fifo_mm_s_0_0_utilization_synth.rpt -pb minized_petalinux_axi_fifo_mm_s_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.092 . Memory (MB): peak = 928.465 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 28 18:58:29 2019...

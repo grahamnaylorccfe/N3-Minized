@@ -1,0 +1,185 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Wed Mar 27 20:54:41 2019
+# Process ID: 391940
+# Current directory: E:/MINIZED_N3Z
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent391680 E:\MINIZED_N3Z\minized_petalinux.xpr
+# Log file: E:/MINIZED_N3Z/vivado.log
+# Journal file: E:/MINIZED_N3Z\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/MINIZED_N3Z/minized_petalinux.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Users/GrahamNaylor/Working/Minized/minized_hardware/hardware/MINIZED' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/../../IP/minized/hdl/vhdl/wireless_mgr.vhd', nor could it be found using path 'E:/Users/GrahamNaylor/Working/Minized/IP/minized/hdl/vhdl/wireless_mgr.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/../../Boards/MINIZED/minized_LEDs.xdc', nor could it be found using path 'E:/Users/GrahamNaylor/Working/Minized/Boards/MINIZED/minized_LEDs.xdc'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/../../Boards/bitstream_compression_enable.xdc', nor could it be found using path 'E:/Users/GrahamNaylor/Working/Minized/Boards/bitstream_compression_enable.xdc'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/minized_petalinux.xdc', nor could it be found using path 'E:/Users/GrahamNaylor/Working/Minized/minized_hardware/hardware/minized_petalinux.xdc'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/../../IP', nor could it be found using path 'E:/Users/GrahamNaylor/Working/Minized/IP'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/MINIZED_N3Z/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 881.555 ; gain = 190.188
+update_compile_order -fileset sources_1
+open_project E:/Users/GrahamNaylor/Working/Minized/minized~/minized_hardware/hardware/MINIZED/minized_petalinux.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Github/hdl/IP/minized'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/hdl-minized/minized_speedway/IP/microphone_PDM'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'p:/FPGADevelopment/Minized/MinizedSysgen'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-3571] IP 'minized_foundation_microphone_mgr_0_0' is restricted:
+* Module reference source file(s) not found.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1068.840 ; gain = 80.941
+update_compile_order -fileset sources_1
+current_project minized_petalinux
+import_files -norecurse E:/Github/hdl/IP/minized/hdl/vhdl/wireless_mgr.vhd
+update_compile_order -fileset sources_1
+update_files -from_files E:/Github/hdl/Boards/MINIZED/minized_LEDs.xdc -to_files E:/../../Boards/MINIZED/minized_LEDs.xdc -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'E:/../../Boards/MINIZED/minized_LEDs.xdc' with file 'E:/Github/hdl/Boards/MINIZED/minized_LEDs.xdc'.
+update_files -from_files E:/Github/hdl/Boards/bitstream_compression_enable.xdc -to_files E:/../../Boards/bitstream_compression_enable.xdc -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'E:/../../Boards/bitstream_compression_enable.xdc' with file 'E:/Github/hdl/Boards/bitstream_compression_enable.xdc'.
+update_files -from_files E:/Github/hdl/Projects/minized_petalinux/minized_petalinux.xdc -to_files E:/minized_petalinux.xdc -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'E:/minized_petalinux.xdc' with file 'E:/Github/hdl/Projects/minized_petalinux/minized_petalinux.xdc'.
+update_module_reference minized_petalinux_wireless_mgr_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'SDIO_CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'WL_SDIO_CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'SDIO_CLK': ASSOCIATED_BUSIF bus parameter is missing.
+WARNING: [IP_Flow 19-3153] Bus Interface 'WL_SDIO_CLK': ASSOCIATED_BUSIF bus parameter is missing.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'WL_SDIO_CLK': FREQ_HZ bus parameter is missing for output clock interface.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/MINIZED_N3Z/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+Adding cell -- xilinx.com:module_ref:wireless_mgr:1.0 - wireless_mgr_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding cell -- xilinx.com:ip:axi_uart16550:2.0 - bluetooth_uart
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_CLK1(clk) and /bluetooth_uart/xin(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /wireless_mgr_0/SDIO_CLK_FB(undef) and /processing_system7_0/SDIO0_CLK_FB(clk)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <minized_petalinux> from BD file <E:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/minized_petalinux.bd>
+Upgrading 'E:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/minized_petalinux.bd'
+INFO: [IP_Flow 19-1972] Upgraded minized_petalinux_wireless_mgr_0_0 from wireless_mgr_v1_0 1.0 to wireless_mgr_v1_0 1.0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/SDIO0_CLK_FB(clk) and /wireless_mgr_0_upgraded_ipi/SDIO_CLK_FB(undef)
+Wrote  : <E:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/minized_petalinux.bd> 
+Wrote  : <E:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ui/bd_d0e45475.ui> 
+upgrade_ip: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1207.207 ; gain = 117.590
+update_module_reference: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1207.207 ; gain = 119.453
+current_project minized_petalinux(2)
+open_bd_design {E:/Users/GrahamNaylor/Working/Minized/minized~/minized_hardware/hardware/MINIZED/minized_petalinux.srcs/sources_1/bd/minized_petalinux/minized_petalinux.bd}
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding cell -- xilinx.com:ip:axi_uart16550:2.0 - bluetooth_uart
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:module_ref:wireless_mgr:1.0 - wireless_mgr_0
+Adding cell -- AssociationNicola:SysGen:minized_demodulate:1.09 - minized_demodulate_0
+Adding cell -- AssociationNicola:SysGen:minizedspeakerpwm:1.09 - minizedspeakerpwm_0
+Adding cell -- AssociationNicola:SysGen:minizedssbmodulator:1.09 - minizedssbmodulator_0
+Adding cell -- AssociationNicola:SysGen:minizedtonedetect:1.09 - minizedtonedetect_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - constant_is_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- AssociationNicola:SysGen:minized_user_dsp_picos:1.09 - minized_user_dsp_pic_0
+Adding cell -- AssociationNicola:SysGen:max11105_adc:1.09 - max11105_adc_0
+Adding cell -- xilinx.com:module_ref:microphone_mgr:1.0 - microphone_mgr_0
+Adding cell -- Avnet_Inc:SysGen:pdm_filter_sysgen:1.0 - pdm_filter_sysgen_0
+Adding cell -- xilinx.com:ip:axi_fifo_mm_s:4.1 - axi_fifo_mm_s_0
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz
+Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_1
+Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_2
+Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_3
+Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_4
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_100M
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_33M
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_1
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - Is1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - Is0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_1
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_2
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_100M1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_2
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_CLK1(clk) and /bluetooth_uart/xin(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /wireless_mgr_0/SDIO_CLK_FB(undef) and /processing_system7_0/SDIO0_CLK_FB(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_0/locked(undef) and /minized_user_dsp_pic_0/minized_user_dsp_picos_aresetn(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_0/locked(undef) and /minizedtonedetect_0/minizedtonedetect_aresetn(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_2/locked(undef) and /bluetooth_uart/s_axi_aresetn(rst)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <minized_petalinux> from BD file <E:/Users/GrahamNaylor/Working/Minized/minized~/minized_hardware/hardware/MINIZED/minized_petalinux.srcs/sources_1/bd/minized_petalinux/minized_petalinux.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1281.070 ; gain = 71.543
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Github/hdl/IP/minized'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/hdl-minized/minized_speedway/IP/microphone_PDM'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'p:/FPGADevelopment/Minized/MinizedSysgen'.
+close_project
+set_property  ip_repo_paths  {e:/MINIZED_N3Z/IP E:/Github/hdl/IP/minized} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/MINIZED_N3Z/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Github/hdl/IP/minized'.
+set_property  ip_repo_paths  {e:/MINIZED_N3Z/IP e:/Github/hdl/IP/minized E:/hdl-minized/minized_speedway/IP/microphone_PDM} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/MINIZED_N3Z/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Github/hdl/IP/minized'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/hdl-minized/minized_speedway/IP/microphone_PDM'.
+set_property  ip_repo_paths  {e:/MINIZED_N3Z/IP e:/Github/hdl/IP/minized e:/hdl-minized/minized_speedway/IP/microphone_PDM P:/FPGADevelopment/Minized/MinizedSysgen} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/MINIZED_N3Z/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Github/hdl/IP/minized'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/hdl-minized/minized_speedway/IP/microphone_PDM'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'p:/FPGADevelopment/Minized/MinizedSysgen'.
+set_property  ip_repo_paths  {e:/Github/hdl/IP/minized e:/hdl-minized/minized_speedway/IP/microphone_PDM p:/FPGADevelopment/Minized/MinizedSysgen} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Github/hdl/IP/minized'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/hdl-minized/minized_speedway/IP/microphone_PDM'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'p:/FPGADevelopment/Minized/MinizedSysgen'.
+update_ip_catalog
+open_bd_design {E:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/minized_petalinux.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 28 09:22:33 2019...

@@ -1,0 +1,8 @@
+OPTION psf_version = 2.1;
+BEGIN driver minized_user_dsp_picos
+ OPTION supported_peripherals = (minized_user_dsp_picos_v1_09);
+ OPTION driver_state = ACTIVE;
+ OPTION copyfiles = all;
+ OPTION name = minized_user_dsp_picos;
+ OPTION version = 1.09;
+END driver

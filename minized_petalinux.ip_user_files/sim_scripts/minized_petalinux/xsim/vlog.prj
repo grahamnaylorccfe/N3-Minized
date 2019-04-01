@@ -1,0 +1,52 @@
+verilog xil_defaultlib --include "../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ec67/hdl" --include "../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/5bb9/hdl/verilog" --include "../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/70fd/hdl" --include "../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/9d4a/hdl" --include "../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/d4ef/hdl" --include "../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/b65a" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_processing_system7_0_0/sim/minized_petalinux_processing_system7_0_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_xlconcat_0_0/sim/minized_petalinux_xlconcat_0_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_xlconstant_1_0/sim/minized_petalinux_xlconstant_1_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_xbar_0/sim/minized_petalinux_xbar_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minized_user_dsp_pic_0_0/minized_user_dsp_picos_fifo_generator_i0/sim/minized_user_dsp_picos_fifo_generator_i0.v" \
+"../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/9d4a/hdl/minized_user_dsp_picos_axi_lite_interface_verilog.v" \
+"../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/9d4a/hdl/synth_reg.v" \
+"../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/9d4a/hdl/synth_reg_w_init.v" \
+"../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/9d4a/hdl/convert_type.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minized_user_dsp_pic_0_0/sim/minized_petalinux_minized_user_dsp_pic_0_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i0/sim/minized_demodulate_blk_mem_gen_i0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i1/sim/minized_demodulate_blk_mem_gen_i1.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i2/sim/minized_demodulate_blk_mem_gen_i2.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_blk_mem_gen_i3/sim/minized_demodulate_blk_mem_gen_i3.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_dist_mem_gen_i0/sim/minized_demodulate_dist_mem_gen_i0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minized_demodulate_0_0/minized_demodulate_dist_mem_gen_i1/sim/minized_demodulate_dist_mem_gen_i1.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minizedtonedetect_0_0/minizedtonedetect_blk_mem_gen_i0/sim/minizedtonedetect_blk_mem_gen_i0.v" \
+"../../../../minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/d4ef/hdl/minizedtonedetect_axi_lite_interface_verilog.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_minizedtonedetect_0_0/sim/minized_petalinux_minizedtonedetect_0_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_util_vector_logic_0_0/sim/minized_petalinux_util_vector_logic_0_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_clk_wiz_0_0/minized_petalinux_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_clk_wiz_0_0/minized_petalinux_clk_wiz_0_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_xlconstant_0_0/sim/minized_petalinux_xlconstant_0_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_xlconstant_2_0/sim/minized_petalinux_xlconstant_2_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_util_vector_logic_0_1/sim/minized_petalinux_util_vector_logic_0_1.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_util_vector_logic_0_2/sim/minized_petalinux_util_vector_logic_0_2.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_blk_mem_gen_0_0/sim/minized_petalinux_blk_mem_gen_0_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_clk_wiz_1/minized_petalinux_clk_wiz_1_clk_wiz.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_clk_wiz_1/minized_petalinux_clk_wiz_1.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_xlconstant_0_1/sim/minized_petalinux_xlconstant_0_1.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_xlconstant_0_2/sim/minized_petalinux_xlconstant_0_2.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_blk_mem_gen_0_1/sim/minized_petalinux_blk_mem_gen_0_1.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_blk_mem_gen_0_2/sim/minized_petalinux_blk_mem_gen_0_2.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_axi_clock_converter_0_0/sim/minized_petalinux_axi_clock_converter_0_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_axi_clock_converter_0_1/sim/minized_petalinux_axi_clock_converter_0_1.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_util_vector_logic_3_0/sim/minized_petalinux_util_vector_logic_3_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_cc_2/sim/minized_petalinux_auto_cc_2.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_cc_1/sim/minized_petalinux_auto_cc_1.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_pc_6/sim/minized_petalinux_auto_pc_6.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_pc_5/sim/minized_petalinux_auto_pc_5.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_pc_4/sim/minized_petalinux_auto_pc_4.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_pc_3/sim/minized_petalinux_auto_pc_3.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_pc_2/sim/minized_petalinux_auto_pc_2.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_pc_1/sim/minized_petalinux_auto_pc_1.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_cc_0/sim/minized_petalinux_auto_cc_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_pc_0/sim/minized_petalinux_auto_pc_0.v" \
+"../../../bd/minized_petalinux/ip/minized_petalinux_auto_pc_7/sim/minized_petalinux_auto_pc_7.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

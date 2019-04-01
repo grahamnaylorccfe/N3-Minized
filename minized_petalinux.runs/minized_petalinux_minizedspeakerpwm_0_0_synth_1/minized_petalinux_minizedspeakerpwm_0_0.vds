@@ -1,0 +1,562 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Thu Mar 28 18:40:33 2019
+# Process ID: 379560
+# Current directory: E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedspeakerpwm_0_0_synth_1
+# Command line: vivado.exe -log minized_petalinux_minizedspeakerpwm_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source minized_petalinux_minizedspeakerpwm_0_0.tcl
+# Log file: E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedspeakerpwm_0_0_synth_1/minized_petalinux_minizedspeakerpwm_0_0.vds
+# Journal file: E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedspeakerpwm_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source minized_petalinux_minizedspeakerpwm_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 301.734 ; gain = 71.348
+Command: synth_design -top minized_petalinux_minizedspeakerpwm_0_0 -part xc7z007sclg225-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 381100 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 448.207 ; gain = 94.410
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'minized_petalinux_minizedspeakerpwm_0_0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedspeakerpwm_0_0/synth/minized_petalinux_minizedspeakerpwm_0_0.vhd:68]
+INFO: [Synth 8-3491] module 'minizedspeakerpwm' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:361' bound to instance 'U0' of component 'minizedspeakerpwm' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedspeakerpwm_0_0/synth/minized_petalinux_minizedspeakerpwm_0_0.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:369]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_default_clock_driver' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:341]
+INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/xlclockdriver_rd.vhd:59]
+	Parameter period bound to: 1 - type: integer 
+	Parameter log_2_period bound to: 1 - type: integer 
+	Parameter pipeline_regs bound to: 5 - type: integer 
+	Parameter use_bufg bound to: 0 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/xlclockdriver_rd.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init' (2#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+WARNING: [Synth 8-6014] Unused sequential element clk_num_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/xlclockdriver_rd.vhd:212]
+INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (3#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_default_clock_driver' (4#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:341]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_struct' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:213]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_dac_xapp154_1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'sysgen_concat_631cfb6c71' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:371]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_concat_631cfb6c71' (5#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:371]
+INFO: [Synth 8-638] synthesizing module 'sysgen_concat_00c87ee7d8' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:398]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_concat_00c87ee7d8' (6#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:398]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_27096d96d3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:423]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_27096d96d3' (7#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:423]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_951c14db09' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:442]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_951c14db09' (8#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:442]
+INFO: [Synth 8-638] synthesizing module 'sysgen_addsub_ee3eeab6ae' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:464]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 3 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 3'b010 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 3 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 3'b010 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 3 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 3'b010 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdse_comp' to cell 'FDSE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:97]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init__parameterized1' (8#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init__parameterized0' (8#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+WARNING: [Synth 8-6014] Unused sequential element cout_mem_92_22_reg[0] was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:508]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_addsub_ee3eeab6ae' (9#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:464]
+INFO: [Synth 8-638] synthesizing module 'sysgen_inverter_a6a3a27bcb' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:228]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_inverter_a6a3a27bcb' (10#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_xlregister' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:294]
+	Parameter d_width bound to: 1 - type: integer 
+	Parameter init_value bound to: 1'b0 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 1'b0 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:31' bound to instance 'synth_reg_inst' of component 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:320]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init__parameterized2' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 1'b0 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 1'b0 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init__parameterized3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init__parameterized3' (10#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init__parameterized2' (10#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_xlregister' (11#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:294]
+INFO: [Synth 8-638] synthesizing module 'sysgen_addsub_99412cbbad' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:575]
+WARNING: [Synth 8-6014] Unused sequential element op_mem_91_20_reg[0] was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:602]
+WARNING: [Synth 8-6014] Unused sequential element cout_mem_92_22_reg[0] was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:613]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_addsub_99412cbbad' (12#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:575]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_xlslice' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:679]
+	Parameter new_msb bound to: 15 - type: integer 
+	Parameter new_lsb bound to: 15 - type: integer 
+	Parameter x_width bound to: 16 - type: integer 
+	Parameter y_width bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_xlslice' (13#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:679]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_xlregister__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:294]
+	Parameter d_width bound to: 16 - type: integer 
+	Parameter init_value bound to: 16'b0000000001000000 
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000001000000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:31' bound to instance 'synth_reg_inst' of component 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:320]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init__parameterized4' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000001000000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000001000000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init__parameterized5' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000001000000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdse_comp' to cell 'FDSE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:97]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init__parameterized5' (13#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init__parameterized4' (13#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_xlregister__parameterized0' (13#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:294]
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_dac_xapp154_1' (14#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_signed_unsigned_offset' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'sysgen_concat_fad86646f7' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:699]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_concat_fad86646f7' (15#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:699]
+INFO: [Synth 8-638] synthesizing module 'sysgen_inverter_9cbcd661f9' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:725]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_inverter_9cbcd661f9' (16#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:725]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_xlslice__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:679]
+	Parameter new_msb bound to: 14 - type: integer 
+	Parameter new_lsb bound to: 2 - type: integer 
+	Parameter x_width bound to: 16 - type: integer 
+	Parameter y_width bound to: 13 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_xlslice__parameterized0' (16#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:679]
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_signed_unsigned_offset' (17#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_xlconvert' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:125]
+	Parameter din_width bound to: 1 - type: integer 
+	Parameter din_bin_pt bound to: 0 - type: integer 
+	Parameter din_arith bound to: 1 - type: integer 
+	Parameter dout_width bound to: 1 - type: integer 
+	Parameter dout_bin_pt bound to: 0 - type: integer 
+	Parameter dout_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter bool_conversion bound to: 1 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_xlconvert' (18#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'minizedspeakerpwm_xlregister__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:294]
+	Parameter d_width bound to: 16 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:31' bound to instance 'synth_reg_inst' of component 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:320]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init__parameterized6' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init__parameterized7' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init__parameterized7' (18#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init__parameterized6' (18#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_xlregister__parameterized1' (18#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:294]
+INFO: [Synth 8-638] synthesizing module 'sysgen_reinterpret_2d6ef3ea42' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:348]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_reinterpret_2d6ef3ea42' (19#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm_entity_declarations.vhd:348]
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm_struct' (20#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:213]
+INFO: [Synth 8-256] done synthesizing module 'minizedspeakerpwm' (21#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/ae4d/hdl/minizedspeakerpwm.vhd:369]
+INFO: [Synth 8-256] done synthesizing module 'minized_petalinux_minizedspeakerpwm_0_0' (22#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedspeakerpwm_0_0/synth/minized_petalinux_minizedspeakerpwm_0_0.vhd:68]
+WARNING: [Synth 8-3331] design sysgen_reinterpret_2d6ef3ea42 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_reinterpret_2d6ef3ea42 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_reinterpret_2d6ef3ea42 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_inverter_a6a3a27bcb has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_inverter_a6a3a27bcb has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_inverter_a6a3a27bcb has unconnected port clr
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlconvert has unconnected port en[0]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlconvert has unconnected port ce
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlconvert has unconnected port clr
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlconvert has unconnected port clk
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[14]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[13]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[12]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[11]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[10]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[9]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[8]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[7]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[6]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[5]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[4]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[3]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[2]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[1]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice has unconnected port x[0]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice__parameterized0 has unconnected port x[15]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice__parameterized0 has unconnected port x[1]
+WARNING: [Synth 8-3331] design minizedspeakerpwm_xlslice__parameterized0 has unconnected port x[0]
+WARNING: [Synth 8-3331] design sysgen_inverter_9cbcd661f9 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_inverter_9cbcd661f9 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_inverter_9cbcd661f9 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_concat_fad86646f7 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_concat_fad86646f7 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_concat_fad86646f7 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_constant_951c14db09 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_constant_951c14db09 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_constant_951c14db09 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_constant_27096d96d3 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_constant_27096d96d3 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_constant_27096d96d3 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_concat_00c87ee7d8 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_concat_00c87ee7d8 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_concat_00c87ee7d8 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_concat_631cfb6c71 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_concat_631cfb6c71 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_concat_631cfb6c71 has unconnected port clr
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 504.688 ; gain = 150.891
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 504.688 ; gain = 150.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 504.688 ; gain = 150.891
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z007sclg225-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedspeakerpwm_0_0/constrs/minizedspeakerpwm.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedspeakerpwm_0_0/constrs/minizedspeakerpwm.xdc] for cell 'U0'
+Parsing XDC File [E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedspeakerpwm_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedspeakerpwm_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 819.410 ; gain = 0.754
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 819.410 ; gain = 465.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 819.410 ; gain = 465.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedspeakerpwm_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 819.410 ; gain = 465.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 819.410 ; gain = 465.613
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/minizedspeakerpwm_struct/inverter8' (sysgen_inverter_a6a3a27bcb) to 'U0/minizedspeakerpwm_struct/inverter9'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sysgen_addsub_ee3eeab6ae 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+Module sysgen_addsub_99412cbbad 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'U0/minizedspeakerpwm_struct/dac_xapp154_1/delta_adder/op_mem_91_20_reg[0][14]' (FDE) to 'U0/minizedspeakerpwm_struct/dac_xapp154_1/delta_adder/op_mem_91_20_reg[0][15]'
+WARNING: [Synth 8-3332] Sequential element (minizedspeakerpwm_default_clock_driver/clockdriver/clr_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp) is unused and will be removed from module minizedspeakerpwm.
+WARNING: [Synth 8-3332] Sequential element (minizedspeakerpwm_struct/dac_xapp154_1/delta_adder/prev_mode_93_22_reg_inst/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp) is unused and will be removed from module minizedspeakerpwm.
+WARNING: [Synth 8-3332] Sequential element (minizedspeakerpwm_struct/dac_xapp154_1/delta_adder/prev_mode_93_22_reg_inst/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[1].bit_is_1.fdse_comp) is unused and will be removed from module minizedspeakerpwm.
+WARNING: [Synth 8-3332] Sequential element (minizedspeakerpwm_struct/dac_xapp154_1/delta_adder/prev_mode_93_22_reg_inst/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[2].bit_is_0.fdre_comp) is unused and will be removed from module minizedspeakerpwm.
+WARNING: [Synth 8-3332] Sequential element (minizedspeakerpwm_struct/dac_xapp154_1/sigma_adder/prev_mode_93_22_reg_inst/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp) is unused and will be removed from module minizedspeakerpwm.
+WARNING: [Synth 8-3332] Sequential element (minizedspeakerpwm_struct/dac_xapp154_1/sigma_adder/prev_mode_93_22_reg_inst/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[1].bit_is_1.fdse_comp) is unused and will be removed from module minizedspeakerpwm.
+WARNING: [Synth 8-3332] Sequential element (minizedspeakerpwm_struct/dac_xapp154_1/sigma_adder/prev_mode_93_22_reg_inst/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[2].bit_is_0.fdre_comp) is unused and will be removed from module minizedspeakerpwm.
+WARNING: [Synth 8-3332] Sequential element (minizedspeakerpwm_struct/register2/synth_reg_inst/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp) is unused and will be removed from module minizedspeakerpwm.
+WARNING: [Synth 8-3332] Sequential element (minizedspeakerpwm_struct/register2/synth_reg_inst/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[1].bit_is_0.fdre_comp) is unused and will be removed from module minizedspeakerpwm.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 819.410 ; gain = 465.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:00:55 . Memory (MB): peak = 824.074 ; gain = 470.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:55 . Memory (MB): peak = 824.074 ; gain = 470.277
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:00:55 . Memory (MB): peak = 824.074 ; gain = 470.277
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:00:57 . Memory (MB): peak = 825.543 ; gain = 471.746
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:00:57 . Memory (MB): peak = 825.543 ; gain = 471.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:57 . Memory (MB): peak = 825.543 ; gain = 471.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:00:57 . Memory (MB): peak = 825.543 ; gain = 471.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:00:57 . Memory (MB): peak = 825.543 ; gain = 471.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:00:57 . Memory (MB): peak = 825.543 ; gain = 471.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     4|
+|2     |LUT1   |     2|
+|3     |LUT2   |    16|
+|4     |FDRE   |    45|
+|5     |FDSE   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------------------------------+---------------------------------------------+------+
+|      |Instance                                        |Module                                       |Cells |
++------+------------------------------------------------+---------------------------------------------+------+
+|1     |top                                             |                                             |    68|
+|2     |  U0                                            |minizedspeakerpwm                            |    68|
+|3     |    minizedspeakerpwm_struct                    |minizedspeakerpwm_struct                     |    68|
+|4     |      dac_xapp154_1                             |minizedspeakerpwm_dac_xapp154_1              |    52|
+|5     |        delta_adder                             |sysgen_addsub_ee3eeab6ae                     |    15|
+|6     |        r1                                      |minizedspeakerpwm_xlregister__parameterized0 |    16|
+|7     |          synth_reg_inst                        |synth_reg_w_init__parameterized4             |    16|
+|8     |            \latency_gt_0.fd_array[1].reg_comp  |single_reg_w_init__parameterized5            |    16|
+|9     |        register1                               |minizedspeakerpwm_xlregister                 |     1|
+|10    |          synth_reg_inst                        |synth_reg_w_init__parameterized2             |     1|
+|11    |            \latency_gt_0.fd_array[1].reg_comp  |single_reg_w_init__parameterized3            |     1|
+|12    |        sigma_adder                             |sysgen_addsub_99412cbbad                     |    20|
+|13    |      register2                                 |minizedspeakerpwm_xlregister__parameterized1 |    16|
+|14    |        synth_reg_inst                          |synth_reg_w_init__parameterized6             |    16|
+|15    |          \latency_gt_0.fd_array[1].reg_comp    |single_reg_w_init__parameterized7            |    16|
++------+------------------------------------------------+---------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:00:57 . Memory (MB): peak = 825.543 ; gain = 471.746
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 825.543 ; gain = 157.023
+Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:00:58 . Memory (MB): peak = 825.543 ; gain = 471.746
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+126 Infos, 59 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:01:02 . Memory (MB): peak = 847.168 ; gain = 504.844
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedspeakerpwm_0_0_synth_1/minized_petalinux_minizedspeakerpwm_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedspeakerpwm_0_0/minized_petalinux_minizedspeakerpwm_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 14 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedspeakerpwm_0_0_synth_1/minized_petalinux_minizedspeakerpwm_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file minized_petalinux_minizedspeakerpwm_0_0_utilization_synth.rpt -pb minized_petalinux_minizedspeakerpwm_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 847.168 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 28 18:42:25 2019...

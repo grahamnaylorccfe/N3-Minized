@@ -1,0 +1,550 @@
+
+*** Running vivado
+    with args -log minized_petalinux_max11105_adc_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source minized_petalinux_max11105_adc_0_0.tcl
+
+
+****** Vivado v2018.2.2 (64-bit)
+  **** SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+  **** IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source minized_petalinux_max11105_adc_0_0.tcl -notrace
+Command: synth_design -top minized_petalinux_max11105_adc_0_0 -part xc7z007sclg225-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 398448 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 449.852 ; gain = 96.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'minized_petalinux_max11105_adc_0_0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/synth/minized_petalinux_max11105_adc_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'max11105_adc' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:513' bound to instance 'U0' of component 'max11105_adc' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/synth/minized_petalinux_max11105_adc_0_0.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:524]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_default_clock_driver' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:493]
+INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/xlclockdriver_rd.vhd:59]
+	Parameter period bound to: 1 - type: integer 
+	Parameter log_2_period bound to: 1 - type: integer 
+	Parameter pipeline_regs bound to: 5 - type: integer 
+	Parameter use_bufg bound to: 0 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/xlclockdriver_rd.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init' (2#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg_w_init.vhd:47]
+WARNING: [Synth 8-6014] Unused sequential element clk_num_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/xlclockdriver_rd.vhd:212]
+INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (3#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_default_clock_driver' (4#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:493]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_struct' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:449]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_adcread' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:402]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_subsystem1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_monostable2' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_xldelay' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:340]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:367]
+INFO: [Synth 8-638] synthesizing module 'synth_reg' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg.vhd:30]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/srl33e.vhd:31]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e' (5#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg' (6#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_xldelay' (7#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:340]
+INFO: [Synth 8-638] synthesizing module 'sysgen_inverter_577bb90aa9' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:407]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_inverter_577bb90aa9' (8#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:407]
+INFO: [Synth 8-638] synthesizing module 'sysgen_logical_b7e37eef4e' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:710]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_b7e37eef4e' (9#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:710]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_monostable2' (10#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'sysgen_concat_7de421be14' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_concat_7de421be14' (11#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_78efe491a7' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_78efe491a7' (12#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_8b7e27dba2' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:96]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_8b7e27dba2' (13#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_90208ce68e' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:115]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_90208ce68e' (14#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_8b4d4f8824' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:134]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_8b4d4f8824' (15#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_xlconvert' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:228]
+	Parameter din_width bound to: 1 - type: integer 
+	Parameter din_bin_pt bound to: 0 - type: integer 
+	Parameter din_arith bound to: 1 - type: integer 
+	Parameter dout_width bound to: 1 - type: integer 
+	Parameter dout_bin_pt bound to: 0 - type: integer 
+	Parameter dout_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter bool_conversion bound to: 1 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_xlconvert' (16#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_xlcounter_limit' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:774]
+	Parameter core_name0 bound to: max11105_adc_c_counter_binary_v12_0_i0 - type: string 
+	Parameter op_width bound to: 6 - type: integer 
+	Parameter op_arith bound to: 1 - type: integer 
+	Parameter cnt_63_48 bound to: 0 - type: integer 
+	Parameter cnt_47_32 bound to: 0 - type: integer 
+	Parameter cnt_31_16 bound to: 0 - type: integer 
+	Parameter cnt_15_0 bound to: 63 - type: integer 
+	Parameter count_limited bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'max11105_adc_c_counter_binary_v12_0_i0' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/max11105_adc_c_counter_binary_v12_0_i0/synth/max11105_adc_c_counter_binary_v12_0_i0.vhd:59' bound to instance 'core_instance0' of component 'max11105_adc_c_counter_binary_v12_0_i0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:861]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_c_counter_binary_v12_0_i0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/max11105_adc_c_counter_binary_v12_0_i0/synth/max11105_adc_c_counter_binary_v12_0_i0.vhd:68]
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_WIDTH bound to: 6 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_RESTRICT_COUNT bound to: 0 - type: integer 
+	Parameter C_COUNT_TO bound to: 1 - type: string 
+	Parameter C_COUNT_BY bound to: 1 - type: string 
+	Parameter C_COUNT_MODE bound to: 0 - type: integer 
+	Parameter C_THRESH0_VALUE bound to: 1 - type: string 
+	Parameter C_CE_OVERRIDES_SYNC bound to: 0 - type: integer 
+	Parameter C_HAS_THRESH0 bound to: 0 - type: integer 
+	Parameter C_HAS_LOAD bound to: 0 - type: integer 
+	Parameter C_LOAD_LOW bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_FB_LATENCY bound to: 0 - type: integer 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'c_counter_binary_v12_0_12' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/max11105_adc_c_counter_binary_v12_0_i0/hdl/c_counter_binary_v12_0_vh_rfs.vhd:2130' bound to instance 'U0' of component 'c_counter_binary_v12_0_12' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/max11105_adc_c_counter_binary_v12_0_i0/synth/max11105_adc_c_counter_binary_v12_0_i0.vhd:127]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_c_counter_binary_v12_0_i0' (24#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/max11105_adc_c_counter_binary_v12_0_i0/synth/max11105_adc_c_counter_binary_v12_0_i0.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_xlcounter_limit' (25#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:774]
+INFO: [Synth 8-638] synthesizing module 'sysgen_logical_8df579fe71' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:450]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_8df579fe71' (26#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:450]
+INFO: [Synth 8-638] synthesizing module 'sysgen_logical_e7be77e191' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:477]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_e7be77e191' (27#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:477]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_xlregister' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:527]
+	Parameter d_width bound to: 16 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg_w_init.vhd:31' bound to instance 'synth_reg_inst' of component 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:553]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init__parameterized1' (27#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init__parameterized1' (27#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_xlregister' (28#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:527]
+INFO: [Synth 8-638] synthesizing module 'sysgen_relational_d1656d4f9d' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:582]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_relational_d1656d4f9d' (29#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:582]
+INFO: [Synth 8-638] synthesizing module 'sysgen_relational_b486e27d43' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:628]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_relational_b486e27d43' (30#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:628]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_xlslice' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:690]
+	Parameter new_msb bound to: 14 - type: integer 
+	Parameter new_lsb bound to: 0 - type: integer 
+	Parameter x_width bound to: 16 - type: integer 
+	Parameter y_width bound to: 15 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_xlslice' (31#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:690]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_xlslice__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:690]
+	Parameter new_msb bound to: 1 - type: integer 
+	Parameter new_lsb bound to: 1 - type: integer 
+	Parameter x_width bound to: 6 - type: integer 
+	Parameter y_width bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_xlslice__parameterized0' (31#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:690]
+INFO: [Synth 8-638] synthesizing module 'max11105_adc_xlslice__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:690]
+	Parameter new_msb bound to: 0 - type: integer 
+	Parameter new_lsb bound to: 0 - type: integer 
+	Parameter x_width bound to: 6 - type: integer 
+	Parameter y_width bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_xlslice__parameterized1' (31#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc_entity_declarations.vhd:690]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_subsystem1' (32#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_adcread' (33#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:402]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc_struct' (34#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:449]
+INFO: [Synth 8-256] done synthesizing module 'max11105_adc' (35#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/bbaf/hdl/max11105_adc.vhd:524]
+INFO: [Synth 8-256] done synthesizing module 'minized_petalinux_max11105_adc_0_0' (36#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/synth/minized_petalinux_max11105_adc_0_0.vhd:71]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized1 has unconnected port x[5]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized1 has unconnected port x[4]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized1 has unconnected port x[3]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized1 has unconnected port x[2]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized1 has unconnected port x[1]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized0 has unconnected port x[5]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized0 has unconnected port x[4]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized0 has unconnected port x[3]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized0 has unconnected port x[2]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice__parameterized0 has unconnected port x[0]
+WARNING: [Synth 8-3331] design max11105_adc_xlslice has unconnected port x[15]
+WARNING: [Synth 8-3331] design sysgen_relational_b486e27d43 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_relational_d1656d4f9d has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_logical_e7be77e191 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_logical_e7be77e191 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_logical_e7be77e191 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_logical_8df579fe71 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_logical_8df579fe71 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_logical_8df579fe71 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_inverter_577bb90aa9 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_inverter_577bb90aa9 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_inverter_577bb90aa9 has unconnected port clr
+WARNING: [Synth 8-3331] design synth_reg has unconnected port clr
+WARNING: [Synth 8-3331] design max11105_adc_xldelay has unconnected port rst
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv has unconnected port AINIT
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv has unconnected port ACLR
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv has unconnected port ASET
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv has unconnected port SCLR
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv has unconnected port SSET
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port b[5]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port b[4]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port b[3]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port b[2]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port b[1]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port b[0]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port add
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port bypass
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port sclr
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy has unconnected port sset
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_legacy has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_legacy has unconnected port b_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_legacy has unconnected port a_signed
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_legacy has unconnected port b_signed
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port up
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port load
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[5]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[4]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[3]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[2]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[1]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[0]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[5]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[4]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[3]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[2]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[1]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[0]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port sclr
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port sset
+WARNING: [Synth 8-3331] design max11105_adc_xlcounter_limit has unconnected port up[0]
+WARNING: [Synth 8-3331] design max11105_adc_xlconvert has unconnected port en[0]
+WARNING: [Synth 8-3331] design max11105_adc_xlconvert has unconnected port ce
+WARNING: [Synth 8-3331] design max11105_adc_xlconvert has unconnected port clr
+WARNING: [Synth 8-3331] design max11105_adc_xlconvert has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_constant_8b4d4f8824 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_constant_8b4d4f8824 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_constant_8b4d4f8824 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_constant_90208ce68e has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_constant_90208ce68e has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_constant_90208ce68e has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_constant_8b7e27dba2 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_constant_8b7e27dba2 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_constant_8b7e27dba2 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_constant_78efe491a7 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_constant_78efe491a7 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_constant_78efe491a7 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_concat_7de421be14 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_concat_7de421be14 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_concat_7de421be14 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_logical_b7e37eef4e has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_logical_b7e37eef4e has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_logical_b7e37eef4e has unconnected port clr
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 516.297 ; gain = 162.941
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 516.297 ; gain = 162.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 516.297 ; gain = 162.941
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z007sclg225-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/constrs/max11105_adc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/constrs/max11105_adc.xdc] for cell 'U0'
+Parsing XDC File [E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_max11105_adc_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_max11105_adc_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  FDE => FDRE: 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 826.754 ; gain = 0.191
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 826.754 ; gain = 473.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 826.754 ; gain = 473.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0/max11105_adc_struct/adcread/subsystem1/counter/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_max11105_adc_0_0_synth_1/dont_touch.xdc, line 12).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 826.754 ; gain = 473.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 826.754 ; gain = 473.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port SCLR
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port SSET
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port UP
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port LOAD
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port L[5]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port L[4]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port L[3]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port L[2]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port L[1]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_viv has unconnected port L[0]
+WARNING: [Synth 8-3332] Sequential element (max11105_adc_default_clock_driver/clockdriver/clr_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp) is unused and will be removed from module max11105_adc.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:45 . Memory (MB): peak = 826.754 ; gain = 473.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:08 . Memory (MB): peak = 830.340 ; gain = 476.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:08 . Memory (MB): peak = 830.340 ; gain = 476.984
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:01 ; elapsed = 00:01:08 . Memory (MB): peak = 839.875 ; gain = 486.520
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 839.875 ; gain = 486.520
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 839.875 ; gain = 486.520
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 839.875 ; gain = 486.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 839.875 ; gain = 486.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 839.875 ; gain = 486.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 839.875 ; gain = 486.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     2|
+|2     |LUT2  |     3|
+|3     |LUT5  |     2|
+|4     |LUT6  |     2|
+|5     |MUXCY |     5|
+|6     |XORCY |     6|
+|7     |FDE   |     4|
+|8     |FDRE  |    42|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 839.875 ; gain = 486.520
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:53 . Memory (MB): peak = 839.875 ; gain = 176.063
+Synthesis Optimization Complete : Time (s): cpu = 00:01:04 ; elapsed = 00:01:11 . Memory (MB): peak = 839.875 ; gain = 486.520
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 2 instances
+  FDE => FDRE: 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+106 Infos, 95 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:07 ; elapsed = 00:01:15 . Memory (MB): peak = 852.918 ; gain = 511.035
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_max11105_adc_0_0_synth_1/minized_petalinux_max11105_adc_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_max11105_adc_0_0/minized_petalinux_max11105_adc_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 36 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_max11105_adc_0_0_synth_1/minized_petalinux_max11105_adc_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file minized_petalinux_max11105_adc_0_0_utilization_synth.rpt -pb minized_petalinux_max11105_adc_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 852.918 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 28 18:54:30 2019...

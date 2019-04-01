@@ -1,0 +1,888 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Thu Mar 28 18:47:17 2019
+# Process ID: 395108
+# Current directory: E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedssbmodulator_0_0_synth_1
+# Command line: vivado.exe -log minized_petalinux_minizedssbmodulator_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source minized_petalinux_minizedssbmodulator_0_0.tcl
+# Log file: E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedssbmodulator_0_0_synth_1/minized_petalinux_minizedssbmodulator_0_0.vds
+# Journal file: E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedssbmodulator_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source minized_petalinux_minizedssbmodulator_0_0.tcl -notrace
+Command: synth_design -top minized_petalinux_minizedssbmodulator_0_0 -part xc7z007sclg225-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 394520 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 451.000 ; gain = 97.375
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'minized_petalinux_minizedssbmodulator_0_0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/synth/minized_petalinux_minizedssbmodulator_0_0.vhd:75]
+INFO: [Synth 8-3491] module 'minizedssbmodulator' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:1111' bound to instance 'U0' of component 'minizedssbmodulator' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/synth/minized_petalinux_minizedssbmodulator_0_0.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:1126]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_default_clock_driver' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:1091]
+INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/xlclockdriver_rd.vhd:59]
+	Parameter period bound to: 1 - type: integer 
+	Parameter log_2_period bound to: 1 - type: integer 
+	Parameter pipeline_regs bound to: 5 - type: integer 
+	Parameter use_bufg bound to: 0 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/xlclockdriver_rd.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init' (1#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init' (2#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:47]
+WARNING: [Synth 8-6014] Unused sequential element clk_num_reg was removed.  [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/xlclockdriver_rd.vhd:212]
+INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (3#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_default_clock_driver' (4#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:1091]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_struct' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:1035]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_ssbmodulator' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:450]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_latch' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlregister' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:789]
+	Parameter d_width bound to: 1 - type: integer 
+	Parameter init_value bound to: 1'b0 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 1'b0 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:31' bound to instance 'synth_reg_inst' of component 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:815]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 1'b0 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 1'b0 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init__parameterized1' (4#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init__parameterized1' (4#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlregister' (5#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:789]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_d2bded70da' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:900]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_d2bded70da' (6#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:900]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_latch' (7#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_monostable1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xldelay' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:403]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:430]
+INFO: [Synth 8-638] synthesizing module 'synth_reg' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:30]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:31]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e' (8#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg' (9#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xldelay' (10#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:403]
+INFO: [Synth 8-638] synthesizing module 'sysgen_inverter_aca7cbaf5c' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:470]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_inverter_aca7cbaf5c' (11#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:470]
+INFO: [Synth 8-638] synthesizing module 'sysgen_logical_e42db596ad' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:657]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_e42db596ad' (12#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:657]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_monostable1' (13#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_monostable2' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'sysgen_inverter_1422d9e1f8' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:920]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_inverter_1422d9e1f8' (14#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:920]
+INFO: [Synth 8-638] synthesizing module 'sysgen_logical_66e14fa010' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:963]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_66e14fa010' (15#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:963]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_monostable2' (16#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_monostable3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_monostable3' (17#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_rampgen' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'sysgen_accum_b247e3ecc0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:989]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_accum_b247e3ecc0' (18#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:989]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlslice' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+	Parameter new_msb bound to: 20 - type: integer 
+	Parameter new_lsb bound to: 4 - type: integer 
+	Parameter x_width bound to: 21 - type: integer 
+	Parameter y_width bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlslice' (19#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_rampgen' (20#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_subsystem' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:282]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xladdsub' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1269]
+	Parameter core_name0 bound to: minizedssbmodulator_c_addsub_v12_0_i2 - type: string 
+	Parameter a_width bound to: 8 - type: integer 
+	Parameter a_bin_pt bound to: 0 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 16 - type: integer 
+	Parameter b_bin_pt bound to: 0 - type: integer 
+	Parameter b_arith bound to: 1 - type: integer 
+	Parameter s_width bound to: 18 - type: integer 
+	Parameter s_bin_pt bound to: 0 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 18 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 18 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'minizedssbmodulator_c_addsub_v12_0_i2' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i2/synth/minizedssbmodulator_c_addsub_v12_0_i2.vhd:59' bound to instance 'core_instance2' of component 'minizedssbmodulator_c_addsub_v12_0_i2' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1380]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_c_addsub_v12_0_i2' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i2/synth/minizedssbmodulator_c_addsub_v12_0_i2.vhd:67]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 18 - type: integer 
+	Parameter C_B_WIDTH bound to: 18 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 18 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_TYPE bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 0 - type: integer 
+	Parameter C_ADD_MODE bound to: 1 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 000000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 0 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_12' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i0/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_12' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i2/synth/minizedssbmodulator_c_addsub_v12_0_i2.vhd:130]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_c_addsub_v12_0_i2' (26#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i2/synth/minizedssbmodulator_c_addsub_v12_0_i2.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xladdsub' (27#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1269]
+INFO: [Synth 8-638] synthesizing module 'sysgen_concat_f66f5ac99b' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1024]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_concat_f66f5ac99b' (28#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1024]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_1d97a642eb' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1049]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_1d97a642eb' (29#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1049]
+INFO: [Synth 8-638] synthesizing module 'sysgen_logical_ca4c219e00' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:563]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_ca4c219e00' (30#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:563]
+INFO: [Synth 8-638] synthesizing module 'sysgen_reinterpret_6b94776457' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1069]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_reinterpret_6b94776457' (31#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1069]
+INFO: [Synth 8-638] synthesizing module 'sysgen_relational_4810efd985' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1094]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_relational_4810efd985' (32#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1094]
+INFO: [Synth 8-638] synthesizing module 'sysgen_relational_b6deddf930' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1144]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_relational_b6deddf930' (33#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1144]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlslice__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+	Parameter new_msb bound to: 14 - type: integer 
+	Parameter new_lsb bound to: 0 - type: integer 
+	Parameter x_width bound to: 17 - type: integer 
+	Parameter y_width bound to: 15 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlslice__parameterized0' (33#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlslice__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+	Parameter new_msb bound to: 15 - type: integer 
+	Parameter new_lsb bound to: 15 - type: integer 
+	Parameter x_width bound to: 17 - type: integer 
+	Parameter y_width bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlslice__parameterized1' (33#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlslice__parameterized2' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+	Parameter new_msb bound to: 16 - type: integer 
+	Parameter new_lsb bound to: 16 - type: integer 
+	Parameter x_width bound to: 17 - type: integer 
+	Parameter y_width bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlslice__parameterized2' (33#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_subsystem' (34#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:282]
+INFO: [Synth 8-638] synthesizing module 'sysgen_accum_1c45442c5f' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_accum_1c45442c5f' (35#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xladdsub__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1269]
+	Parameter core_name0 bound to: minizedssbmodulator_c_addsub_v12_0_i0 - type: string 
+	Parameter a_width bound to: 17 - type: integer 
+	Parameter a_bin_pt bound to: 0 - type: integer 
+	Parameter a_arith bound to: 1 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 17 - type: integer 
+	Parameter b_bin_pt bound to: 0 - type: integer 
+	Parameter b_arith bound to: 1 - type: integer 
+	Parameter s_width bound to: 17 - type: integer 
+	Parameter s_bin_pt bound to: 0 - type: integer 
+	Parameter s_arith bound to: 1 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 18 - type: integer 
+	Parameter full_s_arith bound to: 1 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 1 - type: integer 
+	Parameter c_output_width bound to: 18 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'minizedssbmodulator_c_addsub_v12_0_i0' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i0/synth/minizedssbmodulator_c_addsub_v12_0_i0.vhd:59' bound to instance 'core_instance0' of component 'minizedssbmodulator_c_addsub_v12_0_i0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1360]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_c_addsub_v12_0_i0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i0/synth/minizedssbmodulator_c_addsub_v12_0_i0.vhd:69]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 18 - type: integer 
+	Parameter C_B_WIDTH bound to: 18 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 18 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 1 - type: integer 
+	Parameter C_B_TYPE bound to: 1 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_ADD_MODE bound to: 0 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 000000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_12' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i0/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_12' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i0/synth/minizedssbmodulator_c_addsub_v12_0_i0.vhd:136]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_c_addsub_v12_0_i0' (37#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i0/synth/minizedssbmodulator_c_addsub_v12_0_i0.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xladdsub__parameterized0' (37#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1269]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xladdsub__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1269]
+	Parameter core_name0 bound to: minizedssbmodulator_c_addsub_v12_0_i1 - type: string 
+	Parameter a_width bound to: 17 - type: integer 
+	Parameter a_bin_pt bound to: 0 - type: integer 
+	Parameter a_arith bound to: 1 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 16 - type: integer 
+	Parameter b_bin_pt bound to: 0 - type: integer 
+	Parameter b_arith bound to: 1 - type: integer 
+	Parameter s_width bound to: 17 - type: integer 
+	Parameter s_bin_pt bound to: 0 - type: integer 
+	Parameter s_arith bound to: 1 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 18 - type: integer 
+	Parameter full_s_arith bound to: 1 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 18 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'minizedssbmodulator_c_addsub_v12_0_i1' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i1/synth/minizedssbmodulator_c_addsub_v12_0_i1.vhd:59' bound to instance 'core_instance1' of component 'minizedssbmodulator_c_addsub_v12_0_i1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1371]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_c_addsub_v12_0_i1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i1/synth/minizedssbmodulator_c_addsub_v12_0_i1.vhd:67]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 18 - type: integer 
+	Parameter C_B_WIDTH bound to: 18 - type: integer 
+	Parameter C_OUT_WIDTH bound to: 18 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_A_TYPE bound to: 1 - type: integer 
+	Parameter C_B_TYPE bound to: 1 - type: integer 
+	Parameter C_LATENCY bound to: 0 - type: integer 
+	Parameter C_ADD_MODE bound to: 0 - type: integer 
+	Parameter C_B_CONSTANT bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 000000000000000000 - type: string 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_CE_OVERRIDES_BYPASS bound to: 1 - type: integer 
+	Parameter C_BYPASS_LOW bound to: 0 - type: integer 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_C_IN bound to: 0 - type: integer 
+	Parameter C_HAS_C_OUT bound to: 0 - type: integer 
+	Parameter C_BORROW_LOW bound to: 1 - type: integer 
+	Parameter C_HAS_CE bound to: 0 - type: integer 
+	Parameter C_HAS_BYPASS bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_12' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i0/hdl/c_addsub_v12_0_vh_rfs.vhd:7026' bound to instance 'U0' of component 'c_addsub_v12_0_12' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i1/synth/minizedssbmodulator_c_addsub_v12_0_i1.vhd:130]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_c_addsub_v12_0_i1' (38#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_addsub_v12_0_i1/synth/minizedssbmodulator_c_addsub_v12_0_i1.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xladdsub__parameterized1' (38#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1269]
+INFO: [Synth 8-638] synthesizing module 'sysgen_concat_fa09d49fc1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:104]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_concat_fa09d49fc1' (39#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'sysgen_concat_a431d5877f' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:132]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_concat_a431d5877f' (40#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_dd97b35eff' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:159]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_dd97b35eff' (41#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_5a2c01a225' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_5a2c01a225' (42#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'sysgen_constant_1988289b95' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_constant_1988289b95' (43#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:197]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlconvert' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:291]
+	Parameter din_width bound to: 1 - type: integer 
+	Parameter din_bin_pt bound to: 0 - type: integer 
+	Parameter din_arith bound to: 1 - type: integer 
+	Parameter dout_width bound to: 1 - type: integer 
+	Parameter dout_bin_pt bound to: 0 - type: integer 
+	Parameter dout_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter bool_conversion bound to: 1 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlconvert' (44#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:291]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlcounter_free' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1494]
+	Parameter core_name0 bound to: minizedssbmodulator_c_counter_binary_v12_0_i0 - type: string 
+	Parameter op_width bound to: 7 - type: integer 
+	Parameter op_arith bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'minizedssbmodulator_c_counter_binary_v12_0_i0' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_counter_binary_v12_0_i0/synth/minizedssbmodulator_c_counter_binary_v12_0_i0.vhd:59' bound to instance 'core_instance0' of component 'minizedssbmodulator_c_counter_binary_v12_0_i0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1525]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_c_counter_binary_v12_0_i0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_counter_binary_v12_0_i0/synth/minizedssbmodulator_c_counter_binary_v12_0_i0.vhd:68]
+	Parameter C_IMPLEMENTATION bound to: 0 - type: integer 
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_WIDTH bound to: 7 - type: integer 
+	Parameter C_HAS_CE bound to: 1 - type: integer 
+	Parameter C_HAS_SCLR bound to: 0 - type: integer 
+	Parameter C_RESTRICT_COUNT bound to: 0 - type: integer 
+	Parameter C_COUNT_TO bound to: 1 - type: string 
+	Parameter C_COUNT_BY bound to: 1 - type: string 
+	Parameter C_COUNT_MODE bound to: 0 - type: integer 
+	Parameter C_THRESH0_VALUE bound to: 1 - type: string 
+	Parameter C_CE_OVERRIDES_SYNC bound to: 0 - type: integer 
+	Parameter C_HAS_THRESH0 bound to: 0 - type: integer 
+	Parameter C_HAS_LOAD bound to: 0 - type: integer 
+	Parameter C_LOAD_LOW bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_FB_LATENCY bound to: 0 - type: integer 
+	Parameter C_AINIT_VAL bound to: 0 - type: string 
+	Parameter C_SINIT_VAL bound to: 0 - type: string 
+	Parameter C_SCLR_OVERRIDES_SSET bound to: 1 - type: integer 
+	Parameter C_HAS_SSET bound to: 0 - type: integer 
+	Parameter C_HAS_SINIT bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'c_counter_binary_v12_0_12' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_counter_binary_v12_0_i0/hdl/c_counter_binary_v12_0_vh_rfs.vhd:2130' bound to instance 'U0' of component 'c_counter_binary_v12_0_12' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_counter_binary_v12_0_i0/synth/minizedssbmodulator_c_counter_binary_v12_0_i0.vhd:127]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_c_counter_binary_v12_0_i0' (48#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minizedssbmodulator_c_counter_binary_v12_0_i0/synth/minizedssbmodulator_c_counter_binary_v12_0_i0.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlcounter_free' (49#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:1494]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xldelay__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:403]
+	Parameter width bound to: 8 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 8 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:430]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:30]
+	Parameter width bound to: 8 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+	Parameter width bound to: 8 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:31]
+	Parameter width bound to: 8 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u1' to cell 'SRLC32E' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:64]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u1' to cell 'SRLC32E' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:64]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u1' to cell 'SRLC32E' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:64]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u1' to cell 'SRLC32E' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:64]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u1' to cell 'SRLC32E' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:64]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u1' to cell 'SRLC32E' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:64]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u1' to cell 'SRLC32E' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:64]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u1' to cell 'SRLC32E' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:64]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized1' (49#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized1' (49#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xldelay__parameterized0' (49#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:403]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xldelay__parameterized1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:403]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:430]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:30]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:31]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 2 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u1' to cell 'SRLC32E' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:64]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized3' (49#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized3' (49#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xldelay__parameterized1' (49#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:403]
+INFO: [Synth 8-638] synthesizing module 'sysgen_logical_6cbc66cac3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:513]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_6cbc66cac3' (50#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:513]
+INFO: [Synth 8-638] synthesizing module 'sysgen_logical_04a81e784b' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:609]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_logical_04a81e784b' (51#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:609]
+INFO: [Synth 8-638] synthesizing module 'sysgen_mux_c55f8b0884' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:685]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_mux_c55f8b0884' (52#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:685]
+INFO: [Synth 8-638] synthesizing module 'sysgen_mux_75d5eceaa7' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:726]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_mux_75d5eceaa7' (53#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:726]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlregister__parameterized0' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:789]
+	Parameter d_width bound to: 16 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:31' bound to instance 'synth_reg_inst' of component 'synth_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:815]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init__parameterized3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init__parameterized3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 16 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 16'b0000000000000000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init__parameterized3' (53#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init__parameterized3' (53#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlregister__parameterized0' (53#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:789]
+INFO: [Synth 8-638] synthesizing module 'sysgen_reinterpret_2791e6aaa1' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:843]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_reinterpret_2791e6aaa1' (54#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:843]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlslice__parameterized3' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+	Parameter new_msb bound to: 18 - type: integer 
+	Parameter new_lsb bound to: 3 - type: integer 
+	Parameter x_width bound to: 19 - type: integer 
+	Parameter y_width bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlslice__parameterized3' (54#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+INFO: [Synth 8-638] synthesizing module 'minizedssbmodulator_xlslice__parameterized4' [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+	Parameter new_msb bound to: 6 - type: integer 
+	Parameter new_lsb bound to: 6 - type: integer 
+	Parameter x_width bound to: 7 - type: integer 
+	Parameter y_width bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_xlslice__parameterized4' (54#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator_entity_declarations.vhd:882]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_ssbmodulator' (55#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:450]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator_struct' (56#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:1035]
+INFO: [Synth 8-256] done synthesizing module 'minizedssbmodulator' (57#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ipshared/c9bd/hdl/minizedssbmodulator.vhd:1126]
+INFO: [Synth 8-256] done synthesizing module 'minized_petalinux_minizedssbmodulator_0_0' (58#1) [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/synth/minized_petalinux_minizedssbmodulator_0_0.vhd:75]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized4 has unconnected port x[5]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized4 has unconnected port x[4]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized4 has unconnected port x[3]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized4 has unconnected port x[2]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized4 has unconnected port x[1]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized4 has unconnected port x[0]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized3 has unconnected port x[2]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized3 has unconnected port x[1]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized3 has unconnected port x[0]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[15]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[14]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[13]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[12]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[11]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[10]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[9]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[8]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[7]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[6]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[5]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[4]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[3]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[2]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[1]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlslice__parameterized2 has unconnected port x[0]
+WARNING: [Synth 8-3331] design sysgen_reinterpret_2791e6aaa1 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_reinterpret_2791e6aaa1 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_reinterpret_2791e6aaa1 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_mux_75d5eceaa7 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_mux_75d5eceaa7 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_mux_75d5eceaa7 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_mux_c55f8b0884 has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_mux_c55f8b0884 has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_mux_c55f8b0884 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_logical_e42db596ad has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_logical_e42db596ad has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_logical_e42db596ad has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_logical_04a81e784b has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_logical_ca4c219e00 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_logical_6cbc66cac3 has unconnected port clr
+WARNING: [Synth 8-3331] design sysgen_inverter_aca7cbaf5c has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_inverter_aca7cbaf5c has unconnected port ce
+WARNING: [Synth 8-3331] design sysgen_inverter_aca7cbaf5c has unconnected port clr
+WARNING: [Synth 8-3331] design synth_reg__parameterized3 has unconnected port clr
+WARNING: [Synth 8-3331] design minizedssbmodulator_xldelay__parameterized1 has unconnected port rst
+WARNING: [Synth 8-3331] design synth_reg__parameterized1 has unconnected port clr
+WARNING: [Synth 8-3331] design minizedssbmodulator_xldelay__parameterized0 has unconnected port rst
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv__parameterized1 has unconnected port AINIT
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv__parameterized1 has unconnected port ACLR
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv__parameterized1 has unconnected port ASET
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv__parameterized1 has unconnected port SCLR
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv__parameterized1 has unconnected port SSET
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port b[6]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port b[5]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port b[4]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port b[3]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port b[2]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port b[1]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port b[0]
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port add
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port bypass
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port sclr
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_lut6_legacy__parameterized5 has unconnected port sset
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_legacy__parameterized5 has unconnected port c_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_legacy__parameterized5 has unconnected port b_in
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_legacy__parameterized5 has unconnected port a_signed
+WARNING: [Synth 8-3331] design c_addsub_v12_0_12_legacy__parameterized5 has unconnected port b_signed
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port up
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port load
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[6]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[5]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[4]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[3]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[2]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[1]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port l[0]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[6]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[5]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[4]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[3]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[2]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[1]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port iv[0]
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port sclr
+WARNING: [Synth 8-3331] design c_counter_binary_v12_0_12_legacy has unconnected port sset
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlcounter_free has unconnected port up[0]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlcounter_free has unconnected port load[0]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlcounter_free has unconnected port din[6]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlcounter_free has unconnected port din[5]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlcounter_free has unconnected port din[4]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlcounter_free has unconnected port din[3]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlcounter_free has unconnected port din[2]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlcounter_free has unconnected port din[1]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlcounter_free has unconnected port din[0]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlconvert has unconnected port en[0]
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlconvert has unconnected port ce
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlconvert has unconnected port clr
+WARNING: [Synth 8-3331] design minizedssbmodulator_xlconvert has unconnected port clk
+WARNING: [Synth 8-3331] design sysgen_constant_5a2c01a225 has unconnected port clk
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 539.434 ; gain = 185.809
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 539.434 ; gain = 185.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 539.434 ; gain = 185.809
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 131 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z007sclg225-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/constrs/minizedssbmodulator.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/constrs/minizedssbmodulator.xdc] for cell 'U0'
+Parsing XDC File [E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedssbmodulator_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedssbmodulator_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  FDE => FDRE: 13 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 831.016 ; gain = 0.188
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 831.016 ; gain = 477.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 831.016 ; gain = 477.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0/minizedssbmodulator_struct/ssbmodulator/addsub/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/minizedssbmodulator_struct/ssbmodulator/addsub1/\comp1.core_instance1 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/minizedssbmodulator_struct/ssbmodulator/subsystem/addsub/\comp2.core_instance2 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/minizedssbmodulator_struct/ssbmodulator/counter1/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedssbmodulator_0_0_synth_1/dont_touch.xdc, line 21).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 831.016 ; gain = 477.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 831.016 ; gain = 477.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/minizedssbmodulator_struct/ssbmodulator/constant2' (sysgen_constant_5a2c01a225) to 'U0/minizedssbmodulator_struct/ssbmodulator/constant4'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (minizedssbmodulator_default_clock_driver/clockdriver/clr_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp) is unused and will be removed from module minizedssbmodulator.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 831.016 ; gain = 477.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:11 ; elapsed = 00:01:19 . Memory (MB): peak = 831.016 ; gain = 477.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:12 ; elapsed = 00:01:19 . Memory (MB): peak = 831.016 ; gain = 477.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:12 ; elapsed = 00:01:19 . Memory (MB): peak = 839.426 ; gain = 485.801
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:14 ; elapsed = 00:01:21 . Memory (MB): peak = 839.426 ; gain = 485.801
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:14 ; elapsed = 00:01:21 . Memory (MB): peak = 839.426 ; gain = 485.801
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 839.426 ; gain = 485.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 839.426 ; gain = 485.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 839.426 ; gain = 485.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 839.426 ; gain = 485.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    16|
+|2     |LUT1    |     2|
+|3     |LUT2    |    98|
+|4     |LUT3    |     9|
+|5     |LUT4    |    22|
+|6     |MUXCY   |    57|
+|7     |SRLC32E |    10|
+|8     |XORCY   |    61|
+|9     |FDE     |    13|
+|10    |FDRE    |    96|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 839.426 ; gain = 485.801
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:01:03 . Memory (MB): peak = 839.426 ; gain = 194.219
+Synthesis Optimization Complete : Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 839.426 ; gain = 485.801
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 147 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 30 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 17 instances
+  FDE => FDRE: 13 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+207 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:18 ; elapsed = 00:01:26 . Memory (MB): peak = 853.391 ; gain = 511.238
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedssbmodulator_0_0_synth_1/minized_petalinux_minizedssbmodulator_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP e:/MINIZED_N3Z/minized_petalinux.srcs/sources_1/bd/minized_petalinux/ip/minized_petalinux_minizedssbmodulator_0_0/minized_petalinux_minizedssbmodulator_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 79 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/MINIZED_N3Z/minized_petalinux.runs/minized_petalinux_minizedssbmodulator_0_0_synth_1/minized_petalinux_minizedssbmodulator_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file minized_petalinux_minizedssbmodulator_0_0_utilization_synth.rpt -pb minized_petalinux_minizedssbmodulator_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 853.391 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 28 18:49:17 2019...

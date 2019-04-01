@@ -1,0 +1,216 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port BT_CTS_IN_N -pg 1 -y 660 -defaultsOSRD
+preplace port DDR -pg 1 -y 140 -defaultsOSRD
+preplace port WL_SDIO_CLK -pg 1 -y 560 -defaultsOSRD
+preplace port reset_rtl -pg 1 -y 1970 -defaultsOSRD
+preplace port iic_rtl_0 -pg 1 -y 2800 -defaultsOSRD
+preplace port BT_REG_ON -pg 1 -y 680 -defaultsOSRD
+preplace port AUDIO_DAT_0 -pg 1 -y 760 -defaultsOSRD
+preplace port reset_rtl_0_1_2_3_4 -pg 1 -y 0 -defaultsOSRD
+preplace port BT_RXD_IN -pg 1 -y 640 -defaultsOSRD
+preplace port WL_SDIO_CMD -pg 1 -y 580 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 160 -defaultsOSRD
+preplace port reset_rtl_0_1_2_3 -pg 1 -y 2970 -defaultsOSRD
+preplace port reset_rtl_0_1 -pg 1 -y 2400 -defaultsOSRD
+preplace port BT_HOST_WAKE -pg 1 -y 840 -defaultsOSRD
+preplace port pl_led_r -pg 1 -y 3170 -defaultsOSRD
+preplace port WL_HOST_WAKE -pg 1 -y 780 -defaultsOSRD
+preplace port BT_TXD_OUT -pg 1 -y 800 -defaultsOSRD
+preplace port pl_sw_1bit -pg 1 -y 3300 -defaultsOSRD
+preplace port WL_REG_ON -pg 1 -y 620 -defaultsOSRD
+preplace port pl_led_g -pg 1 -y 3150 -defaultsOSRD
+preplace port BT_RTS_OUT_N -pg 1 -y 820 -defaultsOSRD
+preplace portBus classd_linb_0 -pg 1 -y 1480 -defaultsOSRD
+preplace portBus classd_hina_0 -pg 1 -y 1420 -defaultsOSRD
+preplace portBus pwmaudio_0 -pg 1 -y 1700 -defaultsOSRD
+preplace portBus sck_0 -pg 1 -y 2530 -defaultsOSRD
+preplace portBus classd_lina_0 -pg 1 -y 1460 -defaultsOSRD
+preplace portBus csbar_0 -pg 1 -y 2490 -defaultsOSRD
+preplace portBus sdoa_0 -pg 1 -y 2740 -defaultsOSRD
+preplace portBus classd_hinb_0 -pg 1 -y 1440 -defaultsOSRD
+preplace portBus WL_SDIO_DAT -pg 1 -y 600 -defaultsOSRD
+preplace inst axi_bram_ctrl_2 -pg 1 -lvl 4 -y 2160 -defaultsOSRD
+preplace inst clk_wiz_3 -pg 1 -lvl 1 -y 1900 -defaultsOSRD
+preplace inst microphone_mgr_0 -pg 1 -lvl 3 -y 480 -defaultsOSRD
+preplace inst constant_is_1 -pg 1 -lvl 3 -y 1330 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 2 -y 2440 -defaultsOSRD
+preplace inst axi_clock_converter_0 -pg 1 -lvl 4 -y 1720 -defaultsOSRD
+preplace inst clk_wiz_4 -pg 1 -lvl 1 -y 2410 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -y 2050 -defaultsOSRD
+preplace inst max11105_adc_0 -pg 1 -lvl 7 -y 2510 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 4 -y 2520 -defaultsOSRD
+preplace inst axi_clock_converter_1 -pg 1 -lvl 4 -y 2340 -defaultsOSRD
+preplace inst minized_demodulate_0 -pg 1 -lvl 4 -y 1240 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -y 720 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 3 -y 1230 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 3 -y 3140 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 6 -y 1470 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -y 1000 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -y 2860 -defaultsOSRD
+preplace inst rst_clk_wiz_100M1 -pg 1 -lvl 3 -y 1960 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 3 -y 660 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 5 -y 2150 -defaultsOSRD
+preplace inst minized_user_dsp_pic_0 -pg 1 -lvl 5 -y 1480 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 4 -y 1000 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 4 -y 3000 -defaultsOSRD
+preplace inst proc_sys_reset_2 -pg 1 -lvl 3 -y 1740 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 5 -y 2400 -defaultsOSRD
+preplace inst Is0 -pg 1 -lvl 3 -y 870 -defaultsOSRD
+preplace inst pdm_filter_sysgen_0 -pg 1 -lvl 4 -y 400 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 6 -y 1610 -defaultsOSRD
+preplace inst minizedssbmodulator_0 -pg 1 -lvl 7 -y 1450 -defaultsOSRD
+preplace inst wireless_mgr_0 -pg 1 -lvl 7 -y 540 -defaultsOSRD
+preplace inst blk_mem_gen_2 -pg 1 -lvl 5 -y 1900 -defaultsOSRD
+preplace inst Is1 -pg 1 -lvl 4 -y 1580 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 2 -y 2140 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -y 2360 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -y 2770 -defaultsOSRD
+preplace inst rst_ps7_0_33M -pg 1 -lvl 3 -y 2960 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 2 -y 1990 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 4 -y 1880 -defaultsOSRD
+preplace inst axi_fifo_mm_s_0 -pg 1 -lvl 4 -y 2700 -defaultsOSRD
+preplace inst minizedspeakerpwm_0 -pg 1 -lvl 7 -y 1700 -defaultsOSRD
+preplace inst bluetooth_uart -pg 1 -lvl 4 -y 800 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 4 -y 2020 -defaultsOSRD
+preplace inst clk_wiz_2 -pg 1 -lvl 2 -y 1850 -defaultsOSRD
+preplace inst minizedtonedetect_0 -pg 1 -lvl 5 -y 1040 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -y 340 -defaultsOSRD
+preplace netloc reset_rtl_0_1_2_3_4_1 1 0 3 NJ 0 NJ 0 780J
+preplace netloc processing_system7_0_SDIO0_CMD_T 1 2 5 NJ 340 1460J 490 NJ 490 NJ 490 3100
+preplace netloc ps7_0_axi_periph_M09_AXI 1 3 1 1390
+preplace netloc ps7_0_axi_periph_M08_AXI 1 3 1 1380
+preplace netloc rst_clk_wiz_100M1_peripheral_aresetn 1 2 2 820 1860 1260
+preplace netloc processing_system7_0_GPIO_T 1 2 5 NJ 120 NJ 120 NJ 120 NJ 120 3130
+preplace netloc util_vector_logic_0_Res 1 6 1 N
+preplace netloc minizedtonedetect_0_n3zsignalreceived 1 4 2 2160 890 2700
+preplace netloc processing_system7_0_FIXED_IO 1 2 6 NJ 160 NJ 160 NJ 160 NJ 160 NJ 160 NJ
+preplace netloc M03_ARESETN_1 1 2 2 800 1640 1260
+preplace netloc clk_wiz_2_locked 1 2 2 770 810 NJ
+preplace netloc minized_user_dsp_pic_0_userpicoaddress 1 4 2 2160 1740 2690
+preplace netloc axi_clock_converter_0_M_AXI 1 4 1 2090
+preplace netloc ps7_0_axi_periph_M02_AXI 1 3 1 1330
+preplace netloc max11105_adc_0_adc_data 1 3 5 1450 3100 NJ 3100 NJ 3100 NJ 3100 3690
+preplace netloc minized_user_dsp_pic_0_reset_picos 1 4 2 2150 880 2740
+preplace netloc axi_iic_0_IIC 1 4 4 2160J 2800 NJ 2800 NJ 2800 NJ
+preplace netloc ps7_0_axi_periph_M04_AXI 1 3 1 1300
+preplace netloc wireless_mgr_0_SDIO_WP 1 2 6 720J 300 NJ 300 NJ 300 NJ 300 NJ 300 3710
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 4 1 2010
+preplace netloc clk_wiz_3_clk_out1 1 1 2 210 1770 750
+preplace netloc wireless_mgr_0_GPIO_to_Zynq 1 2 6 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 3730
+preplace netloc minized_user_dsp_pic_0_audioout 1 3 4 1480 1430 2050J 1200 2780 1350 3130
+preplace netloc xlconcat_0_dout 1 1 1 230
+preplace netloc BT_RTS_OUT_N_1 1 0 7 0J -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 3160J
+preplace netloc wireless_mgr_0_BT_CTS_IN_N 1 7 1 NJ
+preplace netloc minized_user_dsp_pic_0_tonedetecton 1 3 3 1430 3110 NJ 3110 2720
+preplace netloc ps7_0_axi_periph_M03_AXI 1 3 1 1280
+preplace netloc clk_wiz_4_clk_out1 1 1 1 N
+preplace netloc BT_TXD_OUT_1 1 0 7 20J -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 3140J
+preplace netloc axi_gpio_0_GPIO 1 4 4 NJ 2850 NJ 2850 NJ 2850 3730J
+preplace netloc reset_rtl_0_1_2_3_1 1 0 3 NJ 2970 NJ 2970 680J
+preplace netloc minized_demodulate_0_strobe 1 4 1 2040
+preplace netloc wireless_mgr_0_WL_REG_ON 1 7 1 NJ
+preplace netloc minized_user_dsp_pic_0_audioamp 1 5 2 NJ 1320 3190
+preplace netloc max11105_adc_0_sysgenclk 1 3 4 1350 1460 2110 1180 NJ 1180 3140
+preplace netloc processing_system7_0_DDR 1 2 6 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 NJ
+preplace netloc clk_wiz_3_locked 1 1 2 210J 1920 740
+preplace netloc reset_rtl_0_1_1 1 0 1 NJ
+preplace netloc axi_gpio_0_GPIO2 1 4 4 NJ 2870 NJ 2870 NJ 2870 3720J
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 2 2 790 1840 1420
+preplace netloc minizedssbmodulator_0_classd_hina 1 7 1 NJ
+preplace netloc minizedtonedetect_0_speakeron 1 5 1 2770
+preplace netloc minized_user_dsp_pic_0_txphase_16b 1 5 2 2760J 1530 3190
+preplace netloc xlconstant_1_dout 1 2 1 680
+preplace netloc minizedssbmodulator_0_classd_hinb 1 7 1 NJ
+preplace netloc minized_user_dsp_pic_0_receivefreq 1 3 3 1470 1440 2080J 1220 2700
+preplace netloc wireless_mgr_0_UART_CTS 1 4 4 NJ 760 NJ 760 NJ 760 3680
+preplace netloc ps7_0_axi_periph_M00_AXI 1 3 1 1320
+preplace netloc minizedtonedetect_0_tdpicoaddress 1 4 2 2170 1190 2690
+preplace netloc Is1_dout 1 4 1 2050
+preplace netloc minized_user_dsp_pic_0_select_monitor_stream 1 3 3 1490 2440 2020J 2280 2730
+preplace netloc rst_ps7_0_50M_peripheral_reset 1 2 1 680
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 220 2340 720
+preplace netloc axi_iic_0_iic2intc_irpt 1 0 5 0 3260 NJ 3260 NJ 3260 NJ 3260 2080
+preplace netloc sdoa_0_1 1 0 7 NJ 2740 NJ 2740 710J 2850 1260J 3090 2160J 2820 2750J 2500 NJ
+preplace netloc blk_mem_gen_1_douta 1 4 1 2130
+preplace netloc clk_wiz_clk_out1 1 1 3 230 2240 690 2680 1280
+preplace netloc max11105_adc_0_sck 1 7 1 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 4 1 2060
+preplace netloc ps7_0_axi_periph_M01_AXI 1 3 1 1290
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 2 820 3250 1420
+preplace netloc reset_rtl_1 1 0 2 -10 1830 220
+preplace netloc Is0_dout 1 3 2 1270 680 2070
+preplace netloc minized_user_dsp_pic_0_dsppicoaddress 1 4 2 2170 2270 2700
+preplace netloc wireless_mgr_0_BT_RXD_IN 1 7 1 NJ
+preplace netloc wireless_mgr_0_SDIO_CDN 1 2 6 700J 260 NJ 260 NJ 260 NJ 260 NJ 260 3720
+preplace netloc processing_system7_0_SDIO0_CLK 1 2 5 680J 230 NJ 230 NJ 230 NJ 230 3200
+preplace netloc axi_clock_converter_1_M_AXI 1 4 1 2030
+preplace netloc ps7_0_axi_periph_M10_AXI 1 3 1 1410
+preplace netloc AUDIO_DAT_0_1 1 0 3 10J -10 NJ -10 800J
+preplace netloc ps7_0_axi_periph_M07_AXI 1 3 1 1300
+preplace netloc wireless_mgr_0_UART_RTS 1 4 3 2050J 750 NJ 750 3110
+preplace netloc bluetooth_uart_INT 1 0 5 0 930 NJ 930 NJ 930 NJ 930 2010
+preplace netloc minizedspeakerpwm_0_pwmaudio 1 7 1 NJ
+preplace netloc processing_system7_0_UART0_TX 1 2 3 790 210 NJ 210 2100J
+preplace netloc xlconstant_2_dout 1 3 1 NJ
+preplace netloc microphone_mgr_0_AUDIO_PDM 1 3 1 1270
+preplace netloc wireless_mgr_0_SDIO_DATA_to_Zynq 1 2 6 710J 290 NJ 290 NJ 290 NJ 290 NJ 290 3680
+preplace netloc wireless_mgr_0_SDIO_CLK_FB 1 2 6 680J 270 NJ 270 NJ 270 NJ 270 NJ 270 3700
+preplace netloc WL_HOST_WAKE_1 1 0 7 -20J -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 3190J
+preplace netloc clk_wiz_locked 1 1 1 220
+preplace netloc wireless_mgr_0_SDIO_CMD_to_Zynq 1 2 6 NJ 320 1460J 280 NJ 280 NJ 280 NJ 280 3690
+preplace netloc Net 1 7 1 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 1970 230 1780 730 1630 1360
+preplace netloc Net1 1 7 1 NJ
+preplace netloc processing_system7_0_SDIO0_DATA_O 1 2 5 NJ 380 1280J 500 NJ 500 NJ 500 3110
+preplace netloc processing_system7_0_FCLK_CLK1 1 2 3 750J 310 NJ 310 2010
+preplace netloc processing_system7_0_FCLK_CLK2 1 2 2 810 370 1450
+preplace netloc minized_user_dsp_pic_0_phaseinc_8b 1 5 2 2760J 1410 3100
+preplace netloc clk_wiz_0_locked 1 3 2 1370 1520 2120
+preplace netloc minized_user_dsp_pic_0_update_phase 1 5 2 2750J 1400 3110
+preplace netloc ps7_0_axi_periph_M06_AXI 1 3 1 1310
+preplace netloc util_vector_logic_1_Res 1 4 1 2120J
+preplace netloc clk_wiz_1_clk_out1 1 2 2 700 3240 1410J
+preplace netloc minized_demodulate_0_filterredsignal 1 4 1 2010
+preplace netloc processing_system7_0_SDIO0_DATA_T 1 2 5 730J 350 1270J 250 NJ 250 NJ 250 3120
+preplace netloc wireless_mgr_0_BT_REG_ON 1 7 1 NJ
+preplace netloc wireless_mgr_0_UART_RX 1 4 4 NJ 800 NJ 800 NJ 800 3690
+preplace netloc axi_bram_ctrl_2_BRAM_PORTA 1 4 1 2080
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 2 2 820 360 1260
+preplace netloc minizedssbmodulator_0_classd_lina 1 7 1 NJ
+preplace netloc max11105_adc_0_csbar 1 7 1 NJ
+preplace netloc minized_user_dsp_pic_0_agcvalue 1 3 3 1510 1420 2060J 1210 2690
+preplace netloc wireless_mgr_0_WL_SDIO_CLK 1 7 1 NJ
+preplace netloc ps7_0_axi_periph_M05_AXI 1 3 1 1340
+preplace netloc minizedssbmodulator_0_classd_linb 1 7 1 NJ
+preplace netloc minized_user_dsp_pic_0_carrierfreq 1 5 2 NJ 1360 3160
+preplace netloc blk_mem_gen_2_douta 1 4 1 2140
+preplace netloc minized_user_dsp_pic_0_rx_signal_select 1 3 3 1460 2240 2090J 2030 2710
+preplace netloc util_vector_logic_2_Res 1 6 1 3100
+preplace netloc clk_wiz_0_clk_out1 1 3 4 1270J 3080 2130J 2810 2770J 2790 3150
+preplace netloc wireless_mgr_0_UART_TX 1 4 3 2030J 740 NJ 740 3100
+preplace netloc axi_gpio_1_GPIO 1 4 4 NJ 3000 NJ 3000 NJ 3000 3700J
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 760
+preplace netloc minized_user_dsp_pic_0_tx_high 1 3 3 1510 1060 2080 900 2710
+preplace netloc processing_system7_0_SDIO0_CMD_O 1 2 5 690J 280 1260J 240 NJ 240 NJ 240 3150
+preplace netloc xlconstant_0_dout 1 3 2 1420 1450 NJ
+preplace netloc axi_fifo_mm_s_0_AXI_STR_TXD 1 3 2 1510 2600 2010
+preplace netloc blk_mem_gen_0_doutb 1 4 1 2150
+preplace netloc max11105_adc_0_dataready 1 3 5 1440 3120 NJ 3120 NJ 3120 NJ 3120 3680
+preplace netloc minized_user_dsp_pic_0_rs232_tx 1 2 4 NJ 220 NJ 220 NJ 220 2730
+preplace netloc processing_system7_0_GPIO_O 1 2 5 NJ 100 NJ 100 NJ 100 NJ 100 3180
+preplace netloc clk_wiz_2_clk_out1 1 2 2 780 790 NJ
+preplace netloc minized_demodulate_0_pulse8khz 1 3 2 1500 1410 2020
+preplace netloc minized_user_dsp_pic_0_tx_low 1 5 1 2780
+preplace netloc rst_ps7_0_33M_peripheral_aresetn 1 2 2 810 1850 1400
+preplace netloc BT_HOST_WAKE_1 1 0 7 -10J -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 3170J
+levelinfo -pg 1 -40 120 460 1070 1780 2430 2950 3460 3750 -top -230 -bot 3380
+",
+}
+{
+   da_axi4_cnt: "9",
+   da_board_cnt: "11",
+   da_clkrst_cnt: "22",
+}
